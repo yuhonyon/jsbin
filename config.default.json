@@ -2,7 +2,7 @@
   "env": "development",
   "timezone": "UTC",
   "url": {
-    "host": "127.0.0.1:3300",
+    "host": "code.yfyld.online",
     "prefix": "/",
     "ssl": false,
     "static": false,
