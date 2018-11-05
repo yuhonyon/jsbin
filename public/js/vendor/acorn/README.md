@@ -15,7 +15,7 @@ npm install acorn
 Alternately, download the source.
 
 ```sh
-git clone https://github.com/marijnh/acorn.git
+git clone http://github.com/marijnh/acorn.git
 ```
 
 ## Components
@@ -43,7 +43,7 @@ have a `pos` property that indicates the character offset at which the
 error occurred,  and a `loc`  object that contains a  `{line, column}`
 object referring to that same position.
 
-[mozapi]: https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API
+[mozapi]: http://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API
 
 - **ecmaVersion**: Indicates the ECMAScript version to parse. Must be
   either 3 or 5. This influences support for strict mode, the set of
@@ -109,7 +109,7 @@ object referring to that same position.
 - **directSourceFile**: Like `sourceFile`, but the property will be
   added directly to the nodes, rather than to a `loc` object.
 
-[range]: https://bugzilla.mozilla.org/show_bug.cgi?id=745678
+[range]: http://bugzilla.mozilla.org/show_bug.cgi?id=745678
 
 **getLineInfo**`(input, offset)` can be used to get a `{line,
 column}` object for a given program string and character offset.

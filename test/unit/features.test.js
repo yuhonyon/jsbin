@@ -5,14 +5,14 @@ test('whitelist works', function (t) {
   var features = proxyquire('../../lib/features', {
     './config': {
       security: {
-        embedWhiteList: ['https://foo.com']
+        embedWhiteList: ['http://foo.com']
       }
     }
   });
 
   var req = {
     headers: {
-      referrer: 'https://foo.com'
+      referrer: 'http://foo.com'
     },
     get: function (key) {
       return req.headers[key.toLowerCase()];
@@ -47,7 +47,7 @@ test('whitelist does not bail when empty', function (t) {
 
   var req = {
     headers: {
-      referrer: 'https://foo.com'
+      referrer: 'http://foo.com'
     },
     get: function (key) {
       return req.headers[key.toLowerCase()];

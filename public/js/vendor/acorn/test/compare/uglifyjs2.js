@@ -1,7 +1,7 @@
 /***********************************************************************
 
   A JavaScript tokenizer / parser / beautifier / compressor.
-  https://github.com/mishoo/UglifyJS2
+  http://github.com/mishoo/UglifyJS2
 
   -------------------------------- (C) ---------------------------------
 
@@ -204,7 +204,7 @@ function set_intersection(a, b) {
 };
 
 // this function is taken from Acorn [1], written by Marijn Haverbeke
-// [1] https://github.com/marijnh/acorn
+// [1] http://github.com/marijnh/acorn
 function makePredicate(words) {
     if (!(words instanceof Array)) words = words.split(" ");
     var f = "", cats = [];
@@ -1443,7 +1443,7 @@ function tokenizer($TEXT, filename) {
             var ch = next(true);
             if (ch == "\\") {
                 // read OctalEscapeSequence (XXX: deprecated if "strict mode")
-                // https://github.com/mishoo/UglifyJS/issues/178
+                // http://github.com/mishoo/UglifyJS/issues/178
                 var octal_len = 0, first = null;
                 ch = read_while(function(ch){
                     if (ch >= "0" && ch <= "7") {

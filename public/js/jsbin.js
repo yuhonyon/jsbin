@@ -161,7 +161,7 @@ function exposeSettings() {
     });
     if (!jsbin.embed) {
       console.log('To edit settings, type this string into the console: ' + key);
-      console.log("Want to try out the alpha version 5 of jsbin? On https://jsbin.com, run the following code in your console:\n\ndocument.cookie = 'version=v5; domain=.jsbin.com'");
+      console.log("Want to try out the alpha version 5 of jsbin? On http://jsbin.com, run the following code in your console:\n\ndocument.cookie = 'version=v5; domain=.jsbin.com'");
     }
   }
 }
@@ -194,7 +194,7 @@ if (jsbin.user && jsbin.user.name) {
 jsbin.mobile = /WebKit.*Mobile.*|Android/.test(navigator.userAgent);
 jsbin.tablet = /iPad/i.test(navigator.userAgent); // sue me.
 // IE detect - sadly uglify is compressing the \v1 trick to death :(
-// via @padolsey & @jdalton - https://gist.github.com/527683
+// via @padolsey & @jdalton - http://gist.github.com/527683
 jsbin.ie = (function(){
   var undef,
       v = 3,
@@ -230,7 +230,7 @@ if (jsbin.settings.editor.theme) {
 jQuery.ajaxPrefilter(function (options, original, xhr) {
   var skip = {head: 1, get: 1};
   if (!skip[options.type.toLowerCase()] &&
-      !options.url.match(/^https:\/\/api.github.com/)) {
+      !options.url.match(/^http:\/\/api.github.com/)) {
     xhr.setRequestHeader('x-csrf-token', jsbin.state.token);
   }
 });

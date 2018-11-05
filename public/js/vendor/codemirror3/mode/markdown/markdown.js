@@ -416,7 +416,7 @@ CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
       return type;
     }
 
-    if (ch === '<' && stream.match(/^(https?|ftps?):\/\/(?:[^\\>]|\\.)+>/, false)) {
+    if (ch === '<' && stream.match(/^(http?|ftps?):\/\/(?:[^\\>]|\\.)+>/, false)) {
       state.f = state.inline = linkInline;
       if (modeCfg.highlightFormatting) state.formatting = "link";
       var type = getType(state);

@@ -56,7 +56,7 @@ jQuery(function ($) {
   var vatEl = $('#vat');
   var vatISOEl = $('#vatiso');
 
-  $.getJSON('https://country-finder.herokuapp.com/?callback=?', function (data) {
+  $.getJSON('http://country-finder.herokuapp.com/?callback=?', function (data) {
     if (data.geo) {
       countryEl.val(data.geo.country.toLowerCase()).trigger('change');
     }
@@ -140,7 +140,7 @@ jQuery(function ($) {
 
     if (vatNum) {
       vatEl.addClass('validating');
-      $.getJSON('https://taxtools.io/api/validate/' + vat, function (data) {
+      $.getJSON('http://taxtools.io/api/validate/' + vat, function (data) {
         if (!data.verified) {
           return setTimeout(function () {
             console.log('API request failed, trying again');

@@ -1,4 +1,4 @@
-// Depends on htmlhint.js from https://github.com/yaniswang/HTMLHint
+// Depends on htmlhint.js from http://github.com/yaniswang/HTMLHint
 
 // declare global: HTMLHint
 

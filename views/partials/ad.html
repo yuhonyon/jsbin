@@ -1,10 +1,10 @@
-  <script src="https://codefund.io/scripts/22e88dc3-30f2-451b-a14e-d257c1395ef1/embed.js?template=bottom-bar"></script>
+  <script src="http://codefund.io/scripts/22e88dc3-30f2-451b-a14e-d257c1395ef1/embed.js?template=bottom-bar"></script>
   <div id="codefund_ad"></div>
   <script>
   $('body').addClass('bsaapi');</script>
 {{!--
 
-  <a href="https://terminal.training?utm_source=jsbin&utm_medium=banner&utm_campaign=flash-sale" class="cs__blurb" target="_blank">
+  <a href="http://terminal.training?utm_source=jsbin&utm_medium=banner&utm_campaign=flash-sale" class="cs__blurb" target="_blank">
     <strong>Flash sale: </strong> <span>learn the command line, 38 videos, 4 hours - this weekend only: $19 🚀</span>
   </a>
 
@@ -12,15 +12,15 @@
 
 
 <div id="bsaapi" class="cs__wrapper">
-  <a href="https://codesponsor.io" class="cs__blurb" target="_blank">
+  <a href="http://codesponsor.io" class="cs__blurb" target="_blank">
     <strong>CodeSponsor.io</strong> <span> - get paid by adding one line of code to your README</span>
   </a>
   <img class="cs__pixel" />
 </div>
 <script>
-$(".cs__footer a").attr("href", "https://codesponsor.io/?utm_source=widget&utm_medium=banner&utm_campaign=" + "{{settings.[features ad code_sponsor_id]}}");
+$(".cs__footer a").attr("href", "http://codesponsor.io/?utm_source=widget&utm_medium=banner&utm_campaign=" + "{{settings.[features ad code_sponsor_id]}}");
 $.ajax({
-  url: "https://app.codesponsor.io/p/" + "{{settings.[features ad code_sponsor_id]}}" + "/message.json",
+  url: "http://app.codesponsor.io/p/" + "{{settings.[features ad code_sponsor_id]}}" + "/message.json",
   method: "GET"
 }).done(function(results) {
   $('body').addClass('bsaapi');

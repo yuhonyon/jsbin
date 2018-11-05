@@ -2530,7 +2530,7 @@ loop:   for (;;) {
             if (token.reserved && !option.es5) {
                 // `undefined` as a function param is a common pattern to protect
                 // against the case when somebody does `undefined = true` and
-                // help with minification. More info: https://gist.github.com/315916
+                // help with minification. More info: http://gist.github.com/315916
                 if (!fnparam || token.value !== "undefined") {
                     warning("Expected an identifier and instead saw '{a}' (a reserved word).",
                             token, token.id);

@@ -1,1 +1,17 @@
-<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><title>jsbin-avatar.svg</title><style>@media (max-width: 100px) { text { display: none; } }</style><g id="eyes" fill="{{fill}}"><path d="M0 10v10h30V10H0z" id="face" fill="#183E49"/><path d="M22.455 18c1.656 0 3-1.343 3-3s-1.344-3-3-3c-1.657 0-3 1.343-3 3s1.343 3 3 3z" id="right"/><path d="M7.727 18c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3z" id="left"/><path id="head-top" fill="#93A6AD" d="M0 0h30v10H0z"/><path id="head-bottom" fill="#93A6AD" d="M0 20h30v10H0z"/><text x="1" y="26" style="text-shadow:1px 1px 0 hsl(196, 14%, 70%);text-overflow:ellipsis" id="name" fill="hsl(196, 14%, 43%)" font-size=".2em" font-family="courier">@</text></g><script type="text/javascript" id="jsbin-javascript"><![CDATA[!function(a){function c(a){var b,c,d=void 0===a?2166136261:a;for(b=0,c=a.length;c>b;b++)d^=a.charCodeAt(b),d+=(d<<1)+(d<<4)+(d<<7)+(d<<8)+(d<<24);return(d>>>0).toString().substr(-8)}var b=a.defaultView.location.href.split("?")[1].split("&")[0];a.getElementById("eyes").style.fill=b?"hsl("+c(b,!0)+",100%,50%)":"rgb(144, 218, 255)",a.getElementById("name").innerHTML="@"+b}(document);]]></script></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16.1" style="enable-background:new 0 0 16 16.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FAC552;}
+	.st1{fill:#014A51;}
+</style>
+<path class="st0" d="M3.6,0.1h8.7c2,0,3.6,1.6,3.6,3.6v8.7c0,2-1.6,3.6-3.6,3.6H3.6c-2,0-3.6-1.6-3.6-3.6V3.7
+	C0.1,1.7,1.7,0.1,3.6,0.1z"/>
+<path class="st1" d="M6,4.1c-0.6,0-0.9,0.3-0.9,0.9v5.1c0,0.7-0.2,1.1-0.7,1c-0.2,0-0.4-0.1-0.7-0.2c-0.3-0.2-0.5-0.2-0.7-0.2
+	c-0.3,0.1-0.5,0.3-0.6,0.7c0.1,0.8,0.8,1.2,2.2,1.3c1.5,0,2.3-0.8,2.3-2.4V5.1C6.9,4.5,6.6,4.2,6,4.1L6,4.1z M11,7.5
+	c-0.9-0.3-1.4-0.6-1.4-0.9c0-0.5,0.3-0.7,1-0.7c0.4,0,0.7,0.1,0.9,0.2c0.3,0.1,0.5,0.1,0.7,0.1c0.5,0,0.7-0.3,0.8-0.9
+	c-0.1-0.7-0.8-1.1-2.3-1.2C8.8,4.3,7.8,5.2,7.7,6.8c0,1.1,0.8,1.9,2.5,2.3c1,0.3,1.5,0.6,1.5,1c0,0.7-0.4,1-1.2,1
+	c-0.3,0-0.7-0.1-1.2-0.2c-0.3-0.1-0.5-0.2-0.8-0.2c-0.5,0.1-0.8,0.3-0.8,0.8c0,0.8,1,1.2,2.9,1.3c1.9-0.1,3-1,3.1-2.7
+	C13.6,8.9,12.7,8,11,7.5L11,7.5z"/>
+</svg>

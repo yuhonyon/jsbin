@@ -65,7 +65,7 @@ Started: {{#stripeTimestampAsDate start "D MMMM, YYYY"}}{{/stripeTimestampAsDate
   {{else}}
   <div class="cancel">
     <h3>Cancellation Zone</h3>
-    <p>This will disable all your Pro access and disable your warm love for JS Bin.</p>
+    <p>This will disable all your Pro access and disable your warm love for JS Code.</p>
     <p>If you do cancel, your Pro status will remain active until {{#stripeTimestampAsDate current_period_end "D MMMM, YYYY"}}{{/stripeTimestampAsDate}}, when your subscription will not be renewed.</p>
     <form id="cancel" method="post" action="/account/subscription/cancel">
       <input type="hidden" name="subscription" value="{{id}}">
@@ -77,7 +77,7 @@ Started: {{#stripeTimestampAsDate start "D MMMM, YYYY"}}{{/stripeTimestampAsDate
   {{/subscription}}
 
 </section>
-<script src="https://js.stripe.com/v2/"></script>
+<script src="http://js.stripe.com/v2/"></script>
 <script>
 Stripe.setPublishableKey('{{stripe.key}}');
 </script>

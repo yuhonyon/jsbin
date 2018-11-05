@@ -1659,7 +1659,7 @@ window.CodeMirror = (function() {
       fastPoll(cm);
     });
     on(d.input, "paste", function() {
-      // Workaround for webkit bug https://bugs.webkit.org/show_bug.cgi?id=90206
+      // Workaround for webkit bug http://bugs.webkit.org/show_bug.cgi?id=90206
       // Add a char to the end of textarea before paste occur so that
       // selection doesn't span to the end of textarea.
       if (webkit && !cm.state.fakedLastChar && !(new Date - cm.state.lastMiddleDown < 200)) {

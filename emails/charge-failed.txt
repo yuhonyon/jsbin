@@ -4,7 +4,7 @@ You'll need to fix this before your subscription automatically cancelled (after 
 
 Update your card details today:
 
-https://jsbin.com/account/subscription
+http://jsbin.com/account/subscription
 
 Many thanks,
 

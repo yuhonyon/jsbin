@@ -69,7 +69,7 @@
       name = over;
     }
 
-    if (!/^(https?:|\/)|\.js$/.test(name))
+    if (!/^(http?:|\/)|\.js$/.test(name))
       name = resolveName(name, data);
     name = flattenPath(name);
 

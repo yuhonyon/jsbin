@@ -74,12 +74,12 @@ CodeMirror.defineMode("sql", function(config, parserConfig) {
     } else if ((support.commentHash && ch == "#")
         || (ch == "-" && stream.eat("-") && (!support.commentSpaceRequired || stream.eat(" ")))) {
       // 1-line comments
-      // ref: https://kb.askmonty.org/en/comment-syntax/
+      // ref: http://kb.askmonty.org/en/comment-syntax/
       stream.skipToEnd();
       return "comment";
     } else if (ch == "/" && stream.eat("*")) {
       // multi-line comments
-      // ref: https://kb.askmonty.org/en/comment-syntax/
+      // ref: http://kb.askmonty.org/en/comment-syntax/
       state.tokenize = tokenComment;
       return state.tokenize(stream, state);
     } else if (ch == ".") {

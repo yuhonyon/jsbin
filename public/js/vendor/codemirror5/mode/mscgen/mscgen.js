@@ -7,7 +7,7 @@
 //
 // This mode for mscgen and the two derivative languages were
 // originally made for use in the mscgen_js interpreter
-// (https://sverweij.github.io/mscgen_js)
+// (http://sverweij.github.io/mscgen_js)
 
 (function(mod) {
   if ( typeof exports == "object" && typeof module == "object")// CommonJS

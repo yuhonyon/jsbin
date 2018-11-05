@@ -7,11 +7,11 @@
 // Git repositories for Acorn are available at
 //
 //     http://marijnhaverbeke.nl/git/acorn
-//     https://github.com/marijnh/acorn.git
+//     http://github.com/marijnh/acorn.git
 //
 // Please use the [github bug tracker][ghbt] to report issues.
 //
-// [ghbt]: https://github.com/marijnh/acorn/issues
+// [ghbt]: http://github.com/marijnh/acorn/issues
 
 (function(exports) {
   "use strict";
@@ -24,7 +24,7 @@
   // API][api], with the caveat that the SpiderMonkey-specific syntax
   // (`let`, `yield`, inline XML, etc) is not recognized.
   //
-  // [api]: https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API
+  // [api]: http://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API
 
   var options, input, inputLen, sourceFile;
 
@@ -74,7 +74,7 @@
     // end]` array with the same numbers, set the `ranges` option to
     // `true`.
     //
-    // [range]: https://bugzilla.mozilla.org/show_bug.cgi?id=745678
+    // [range]: http://bugzilla.mozilla.org/show_bug.cgi?id=745678
     ranges: false,
     // It is possible to parse multiple files into a single AST by
     // passing the tree produced by parsing the first file as

@@ -654,22 +654,22 @@
           "!doc": "An IncomingMessage object is created by http.Server or http.ClientRequest and passed as the first argument to the 'request' and 'response' event respectively. It may be used to access response status, headers and data."
         }
       },
-      https: {
+      http: {
         Server: "http.Server",
         createServer: {
-          "!type": "fn(listener?: fn(request: +http.IncomingMessage, response: +http.ServerResponse)) -> +https.Server",
-          "!url": "http://nodejs.org/api/https.html#https_https_createserver_options_requestlistener",
-          "!doc": "Returns a new HTTPS web server object. The options is similar to tls.createServer(). The requestListener is a function which is automatically added to the 'request' event."
+          "!type": "fn(listener?: fn(request: +http.IncomingMessage, response: +http.ServerResponse)) -> +http.Server",
+          "!url": "http://nodejs.org/api/http.html#http_http_createserver_options_requestlistener",
+          "!doc": "Returns a new http web server object. The options is similar to tls.createServer(). The requestListener is a function which is automatically added to the 'request' event."
         },
         request: {
           "!type": "fn(options: ?, callback?: fn(res: +http.IncomingMessage)) -> +http.ClientRequest",
-          "!url": "http://nodejs.org/api/https.html#https_https_request_options_callback",
+          "!url": "http://nodejs.org/api/http.html#http_http_request_options_callback",
           "!doc": "Makes a request to a secure web server."
         },
         get: {
           "!type": "fn(options: ?, callback?: fn(res: +http.IncomingMessage)) -> +http.ClientRequest",
-          "!url": "http://nodejs.org/api/https.html#https_https_get_options_callback",
-          "!doc": "Like http.get() but for HTTPS."
+          "!url": "http://nodejs.org/api/http.html#http_http_get_options_callback",
+          "!doc": "Like http.get() but for http."
         },
         Agent: "http.Agent",
         globalAgent: "http.globalAgent"

@@ -17,7 +17,7 @@
   <ul>
     <li><a href="../../index.html">Home</a>
     <li><a href="../../doc/manual.html">Manual</a>
-    <li><a href="https://github.com/codemirror/codemirror">Code</a>
+    <li><a href="http://github.com/codemirror/codemirror">Code</a>
   </ul>
   <ul>
     <li><a href="../index.html">Language modes</a>
@@ -35,15 +35,15 @@
 # clone the repository
 git clone http://github.com/garden/tree
 
-# generate HTTPS credentials
+# generate http credentials
 cd tree
-openssl genrsa -aes256 -out https.key 1024
-openssl req -new -nodes -key https.key -out https.csr
-openssl x509 -req -days 365 -in https.csr -signkey https.key -out https.crt
-cp https.key{,.orig}
-openssl rsa -in https.key.orig -out https.key
+openssl genrsa -aes256 -out http.key 1024
+openssl req -new -nodes -key http.key -out http.csr
+openssl x509 -req -days 365 -in http.csr -signkey http.key -out http.crt
+cp http.key{,.orig}
+openssl rsa -in http.key.orig -out http.key
 
-# start the server in HTTPS mode
+# start the server in http mode
 cd web
 sudo node ../server.js 443 'yes' &gt;&gt; ../node.log &amp;
 

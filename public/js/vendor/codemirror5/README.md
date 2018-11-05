@@ -1,8 +1,8 @@
 # CodeMirror
-[![Build Status](https://travis-ci.org/codemirror/CodeMirror.svg)](https://travis-ci.org/codemirror/CodeMirror)
-[![NPM version](https://img.shields.io/npm/v/codemirror.svg)](https://www.npmjs.org/package/codemirror)
-[![Join the chat at https://gitter.im/codemirror/CodeMirror](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/codemirror/CodeMirror)  
-[Funding status: ![maintainer happiness](https://marijnhaverbeke.nl/fund/status_s.png?again)](https://marijnhaverbeke.nl/fund/)
+[![Build Status](http://travis-ci.org/codemirror/CodeMirror.svg)](http://travis-ci.org/codemirror/CodeMirror)
+[![NPM version](http://img.shields.io/npm/v/codemirror.svg)](http://www.npmjs.org/package/codemirror)
+[![Join the chat at http://gitter.im/codemirror/CodeMirror](http://badges.gitter.im/Join%20Chat.svg)](http://gitter.im/codemirror/CodeMirror)  
+[Funding status: ![maintainer happiness](http://marijnhaverbeke.nl/fund/status_s.png?again)](http://marijnhaverbeke.nl/fund/)
 
 CodeMirror is a versatile text editor implemented in JavaScript for
 the browser. It is specialized for editing code, and comes with over
@@ -16,10 +16,10 @@ new functionality.
 You can find more information (and the
 [manual](http://codemirror.net/doc/manual.html)) on the [project
 page](http://codemirror.net). For questions and discussion, use the
-[discussion forum](https://discuss.codemirror.net/).
+[discussion forum](http://discuss.codemirror.net/).
 
 See
-[CONTRIBUTING.md](https://github.com/codemirror/CodeMirror/blob/master/CONTRIBUTING.md)
+[CONTRIBUTING.md](http://github.com/codemirror/CodeMirror/blob/master/CONTRIBUTING.md)
 for contributing guidelines.
 
 The CodeMirror community aims to be welcoming to everybody. We use the

@@ -1,7 +1,7 @@
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
-// Swift mode created by Michael Kaminsky https://github.com/mkaminsky11
+// Swift mode created by Michael Kaminsky http://github.com/mkaminsky11
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object")

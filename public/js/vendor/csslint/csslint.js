@@ -7947,7 +7947,7 @@ CSSLint.addRule({
         parser.addListener("property", function(event){
             var name = event.property.text.toLowerCase();
 
-            // the check is handled entirely by the parser-lib (https://github.com/nzakas/parser-lib)
+            // the check is handled entirely by the parser-lib (http://github.com/nzakas/parser-lib)
             if (event.invalid) {
                 reporter.report(event.invalid.message, event.line, event.col, rule);
             }

@@ -47,9 +47,9 @@ should be asked on the
 
 ## Contributing code
 
-- Make sure you have a [GitHub Account](https://github.com/signup/free)
-- Fork [CodeMirror](https://github.com/marijnh/CodeMirror/)
-  ([how to fork a repo](https://help.github.com/articles/fork-a-repo))
+- Make sure you have a [GitHub Account](http://github.com/signup/free)
+- Fork [CodeMirror](http://github.com/marijnh/CodeMirror/)
+  ([how to fork a repo](http://help.github.com/articles/fork-a-repo))
 - Make your changes
 - If your changes are easy to test or likely to regress, add tests.
   Tests for the core go into `test/test.js`, some modes have their own
@@ -61,7 +61,7 @@ should be asked on the
 - Make sure all tests pass. Visit `test/index.html` in your browser to
   run them.
 - Submit a pull request
-([how to create a pull request](https://help.github.com/articles/fork-a-repo))
+([how to create a pull request](http://help.github.com/articles/fork-a-repo))
 
 ### Coding standards
 

@@ -11,7 +11,7 @@
 })(function(CodeMirror) {
 "use strict";
 
-// Depends on js-yaml.js from https://github.com/nodeca/js-yaml
+// Depends on js-yaml.js from http://github.com/nodeca/js-yaml
 
 // declare global: jsyaml
 

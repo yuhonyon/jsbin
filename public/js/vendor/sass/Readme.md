@@ -1,14 +1,14 @@
 # Sass.js
 
-Sass parser in JavaScript. This is a convenience API for the [emscripted](https://github.com/rodneyrehm/libsass) [libsass](https://github.com/hcatlin/libsass) (at v1.0.1). If you're looking to run Sass in node, you're probably looking for [node-sass](https://github.com/andrew/node-sass). Sass.js and node-sass should generate the same results.
+Sass parser in JavaScript. This is a convenience API for the [emscripted](http://github.com/rodneyrehm/libsass) [libsass](http://github.com/hcatlin/libsass) (at v1.0.1). If you're looking to run Sass in node, you're probably looking for [node-sass](http://github.com/andrew/node-sass). Sass.js and node-sass should generate the same results.
 
-> A fair warning: minified it's 2MB, gzipped it's 550KB. [node-sass](https://github.com/andrew/node-sass) is about 20 times faster than Sass.js
+> A fair warning: minified it's 2MB, gzipped it's 550KB. [node-sass](http://github.com/andrew/node-sass) is about 20 times faster than Sass.js
 
 see the [live demo](http://medialize.github.com/sass.js/)
 
 ## Loading the Sass.js API
 
-Sass.js comes in two flavors – the synchronous in-document `sass.js` and the asynchronous worker `sass.worker.js`. The primary API - wrapping the Emscripten runtime - is provided with `sass.js` (it is used internally by `sass.worker.js` as well). `sass.worker.js` mimics the same API (adding callbacks for the asynchronous part) and passes all the function calls through to the [web worker](https://developer.mozilla.org/en/docs/Web/API/Worker).
+Sass.js comes in two flavors – the synchronous in-document `sass.js` and the asynchronous worker `sass.worker.js`. The primary API - wrapping the Emscripten runtime - is provided with `sass.js` (it is used internally by `sass.worker.js` as well). `sass.worker.js` mimics the same API (adding callbacks for the asynchronous part) and passes all the function calls through to the [web worker](http://developer.mozilla.org/en/docs/Web/API/Worker).
 
 ### Synchronous in-document sass.js
 
@@ -73,7 +73,7 @@ Sass.listFiles();
 
 ### Working With Files
 
-Chances are you want to use one of the readily available Sass mixins (e.g. [drublic/sass-mixins](https://github.com/drublic/Sass-Mixins) or [Bourbon](https://github.com/thoughtbot/bourbon)). While Sass.js doesn't feature a full-blown "loadBurbon()", registering files is possible:
+Chances are you want to use one of the readily available Sass mixins (e.g. [drublic/sass-mixins](http://github.com/drublic/Sass-Mixins) or [Bourbon](http://github.com/thoughtbot/bourbon)). While Sass.js doesn't feature a full-blown "loadBurbon()", registering files is possible:
 
 ```js
 Sass.writeFile('one.scss', '.one { width: 123px; }');
@@ -107,11 +107,11 @@ outputs
 
 ## Authors
 
-* [Christian Kruse](https://github.com/ckruse) - [@cjk101010](https://twitter.com/cjk101010)
-* [Sebastian Golasch](https://github.com/asciidisco) - [@asciidisco](https://twitter.com/asciidisco)
-* [Rodney Rehm](http://rodneyrehm.de/en/) - [@rodneyrehm](https://twitter.com/rodneyrehm)
+* [Christian Kruse](http://github.com/ckruse) - [@cjk101010](http://twitter.com/cjk101010)
+* [Sebastian Golasch](http://github.com/asciidisco) - [@asciidisco](http://twitter.com/asciidisco)
+* [Rodney Rehm](http://rodneyrehm.de/en/) - [@rodneyrehm](http://twitter.com/rodneyrehm)
 
 
 ## License
 
-Sass.js is - as [libsass](https://github.com/hcatlin/libsass) and [Emscripten](https://github.com/kripken/emscripten/) are - published under the [MIT License](http://opensource.org/licenses/mit-license).
+Sass.js is - as [libsass](http://github.com/hcatlin/libsass) and [Emscripten](http://github.com/kripken/emscripten/) are - published under the [MIT License](http://opensource.org/licenses/mit-license).

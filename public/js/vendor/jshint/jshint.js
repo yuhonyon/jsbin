@@ -51770,7 +51770,7 @@ function assert(expression) {
 
   // Return the maximum element or (element-based computation).
   // Can't optimize arrays of integers longer than 65,535 elements.
-  // See: https://bugs.webkit.org/show_bug.cgi?id=80797
+  // See: http://bugs.webkit.org/show_bug.cgi?id=80797
   _.max = function(obj, iterator, context) {
     if (!iterator && _.isArray(obj) && obj[0] === +obj[0] && obj.length < 65535) {
       return Math.max.apply(Math, obj);
@@ -54061,7 +54061,7 @@ var JSHINT = (function () {
 
   // Checks whether the 'typeof' operator is used with the correct
   // value. For docs on 'typeof' see:
-  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+  // http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 
   function isTypoTypeof(left, right) {
     if (state.option.notypeof)
@@ -57787,7 +57787,7 @@ var nonAsciiIdentifierPartTable = require("../data/non-ascii-identifier-part-onl
 
 // Some of these token types are from JavaScript Parser API
 // while others are specific to JSHint parser.
-// JS Parser API: https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API
+// JS Parser API: http://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API
 
 var Token = {
   Identifier: 1,

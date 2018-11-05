@@ -19,7 +19,7 @@ For further documentation, see the [project page][1] and the
 [3]: http://ternjs.net/doc/manual.html
 
 [emacs]: http://ternjs.net/doc/manual.html#emacs
-[vim]: https://github.com/marijnh/tern_for_vim
-[st]: https://github.com/marijnh/tern_for_sublime
+[vim]: http://github.com/marijnh/tern_for_vim
+[st]: http://github.com/marijnh/tern_for_sublime
 [brackets]: http://brackets.io
 [edge_code]: http://html.adobe.com/edge/code

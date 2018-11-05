@@ -13,6 +13,6 @@
   {
     "version": "3.33.1",
     "type": "notification",
-    "message": "HTTPS is now freely available to all users, if you have an account, you can make HTTPS your <a href=\"/account/preferences\">your default preference</a> on jsbin.com"
+    "message": "http is now freely available to all users, if you have an account, you can make http your <a href=\"/account/preferences\">your default preference</a> on jsbin.com"
   }
 ]

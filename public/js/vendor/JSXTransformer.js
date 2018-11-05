@@ -361,7 +361,7 @@ var kMaxLength = 0x3fffffff
  *
  * - Implementation must support adding new properties to `Uint8Array` instances.
  *   Firefox 4-29 lacked support, fixed in Firefox 30+.
- *   See: https://bugzilla.mozilla.org/show_bug.cgi?id=695438.
+ *   See: http://bugzilla.mozilla.org/show_bug.cgi?id=695438.
  *
  *  - Chrome 9-10 is missing the `TypedArray.prototype.subarray` function.
  *
@@ -3332,7 +3332,7 @@ parseYieldExpression: true
         var prevToken,
             checkToken;
         // Using the following algorithm:
-        // https://github.com/mozilla/sweet.js/wiki/design
+        // http://github.com/mozilla/sweet.js/wiki/design
         prevToken = extra.tokens[extra.tokens.length - 1];
         if (!prevToken) {
             // Nothing before that: it cannot be a division.
@@ -8477,7 +8477,7 @@ define(function (_dereq_, exports, module) {
  * http://opensource.org/licenses/BSD-3-Clause
  *
  * Based on the Base 64 VLQ implementation in Closure Compiler:
- * https://code.google.com/p/closure-compiler/source/browse/trunk/src/com/google/debugging/sourcemap/Base64VLQ.java
+ * http://code.google.com/p/closure-compiler/source/browse/trunk/src/com/google/debugging/sourcemap/Base64VLQ.java
  *
  * Copyright 2011 The Closure Compiler Authors. All rights reserved.
  * Redistribution and use in source and binary forms, with or without
@@ -8787,7 +8787,7 @@ define(function (_dereq_, exports, module) {
    *       mappings: "AA,AB;;ABCDE;"
    *     }
    *
-   * [0]: https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit?pli=1#
+   * [0]: http://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit?pli=1#
    */
   function SourceMapConsumer(aSourceMap) {
     var sourceMap = aSourceMap;
@@ -9103,7 +9103,7 @@ define(function (_dereq_, exports, module) {
         // XXX: file:// URIs and absolute paths lead to unexpected behavior for
         // many users. We can help them out when they expect file:// URIs to
         // behave like it would if they were running a local HTTP server. See
-        // https://bugzilla.mozilla.org/show_bug.cgi?id=885597.
+        // http://bugzilla.mozilla.org/show_bug.cgi?id=885597.
         var fileUriAbsPath = aSource.replace(/^file:\/\//, "");
         if (url.scheme == "file"
             && this._sources.has(fileUriAbsPath)) {
@@ -10065,8 +10065,8 @@ define(function (_dereq_, exports, module) {
    * Because behavior goes wacky when you set `__proto__` on objects, we
    * have to prefix all the strings in our set with an arbitrary character.
    *
-   * See https://github.com/mozilla/source-map/pull/31 and
-   * https://github.com/mozilla/source-map/issues/30
+   * See http://github.com/mozilla/source-map/pull/31 and
+   * http://github.com/mozilla/source-map/issues/30
    *
    * @param String aStr
    */
@@ -12921,7 +12921,7 @@ exports.renderRestExpression = renderRestExpression;
 
 /**
  * Implements ES7 object spread property.
- * https://gist.github.com/sebmarkbage/aa849c7973cb4452c547
+ * http://gist.github.com/sebmarkbage/aa849c7973cb4452c547
  *
  * { ...a, x: 1 }
  *
@@ -13054,7 +13054,7 @@ var LITERALS = [
   'false'
 ];
 
-// https://people.mozilla.org/~jorendorff/es6-draft.html#sec-reserved-words
+// http://people.mozilla.org/~jorendorff/es6-draft.html#sec-reserved-words
 var RESERVED_WORDS = [].concat(
   KEYWORDS,
   FUTURE_RESERVED_WORDS,

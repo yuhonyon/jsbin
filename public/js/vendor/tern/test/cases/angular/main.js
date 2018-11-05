@@ -35,7 +35,7 @@ angular.module('sample', ['ngResource', 'sample.config', 'sample.filters'])
 
 // doc for User
 .factory('User', ['$resource', function($resource) {
-  return $resource('https://api.github.com/users/:login');
+  return $resource('http://api.github.com/users/:login');
 }])
 
 ;

@@ -4,7 +4,7 @@
 
 
 <section id="content">
-  <p>So you're thinking of leaving. Okay, that makes us sad, but JS Bin won't stop you - we're all sure you're destined to do great things, with JS Bin or not.</p>
+  <p>So you're thinking of leaving. Okay, that makes us sad, but JS Code won't stop you - we're all sure you're destined to do great things, with JS Code or not.</p>
   <div class="cancel">
     <h3>The Cancellation Zone</h3>
     <p>This will delete your profile, your settings, your history of bins <em>and</em> all the bins you've created (all {{user.bincount}} of them). It will leave a permanent hole in the interwebs.</p>
@@ -12,7 +12,7 @@
     <form id="cancel" method="post" action="/account/delete">
       <input type="hidden" name="_csrf" value="{{token}}">
       <input type="hidden" name="confirm" id="confirm" value="">
-      <button>Delete my entire JS Bin account!</button>
+      <button>Delete my entire JS Code account!</button>
     </form>
     <script>
 document.getElementById('cancel').onsubmit = function (event) {

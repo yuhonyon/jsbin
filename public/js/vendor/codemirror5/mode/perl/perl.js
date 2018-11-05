@@ -2,7 +2,7 @@
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
 // CodeMirror2 mode/perl/perl.js (text/x-perl) beta 0.10 (2011-11-08)
-// This is a part of CodeMirror from https://github.com/sabaca/CodeMirror_mode_perl (mail@sabaca.com)
+// This is a part of CodeMirror from http://github.com/sabaca/CodeMirror_mode_perl (mail@sabaca.com)
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS

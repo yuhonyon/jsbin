@@ -33,7 +33,7 @@ if (!Array.prototype.indexOf) {
 
 // ES5 15.4.4.21
 // http://es5.github.com/#x15.4.4.21
-// https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Objects/Array/reduce
+// http://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Objects/Array/reduce
 if ('function' !== typeof Array.prototype.reduce) {
   Array.prototype.reduce = function(callback/*, opt_initialValue*/){
     'use strict';
@@ -129,7 +129,7 @@ if ( !Array.prototype.forEach ) {
   };
 }
 
-// https://gist.github.com/1035982
+// http://gist.github.com/1035982
 ''.trim||(String.prototype.trim=function(){return this.replace(/^[\s\uFEFF]+|[\s\uFEFF]+$/g,'')});
 
 if ( !Object.prototype.hasOwnProperty ) {
@@ -296,7 +296,7 @@ Date.now||(Date.now=function(){return+new Date})
   }
 }());
 
-// From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+// From http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
 if (!Object.keys) {
   Object.keys = (function () {
     'use strict';
@@ -338,7 +338,7 @@ if (!Object.keys) {
   }());
 }
 
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+// http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 if (!Array.prototype.map) {
   Array.prototype.map = function(fun /*, thisArg */) {
     "use strict";

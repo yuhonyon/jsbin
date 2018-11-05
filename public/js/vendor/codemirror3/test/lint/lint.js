@@ -12,7 +12,7 @@
     (use a '// declare global: foo, bar' comment to declare extra
     globals in a file)
 
- [1]: https://github.com/marijnh/acorn/
+ [1]: http://github.com/marijnh/acorn/
 */
 
 var topAllowedGlobals = Object.create(null);

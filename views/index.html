@@ -2,7 +2,7 @@
 <html id="jsbin-com" lang="en" class="{{#if flash_tip}}showtip{{/if}}{{#if embed}} embed{{/if}}{{#equal editorLayout "0"}}{{else}} layout layout{{editorLayout}}{{/equal}}">
 <head>
   <meta charset=utf-8>
-  <title>JS Bin - Collaborative JavaScript Debugging</title>
+  <title>JS Code - Collaborative JavaScript Debugging</title>
   <link rel="alternate" type="application/json+oembed" href="{{root}}/oembed?url={{root}}{{request.url}}">
   <link rel="icon" href="{{static}}/images/favicon.png">
   <link rel="stylesheet" href="{{static}}/js/vendor/codemirror5/lib/codemirror.css{{cacheBust}}">
@@ -27,11 +27,11 @@
   <meta id="app-description" name="description" content="A live pastebin for HTML, CSS & JavaScript and a range of processors, including SCSS, CoffeeScript, Jade and more..." />
   {{#if bin}}
   <meta property="og:url" content="{{root}}{{code_id_path}}/edit" />
-  <meta property="og:title" content="JS Bin" />
+  <meta property="og:title" content="JS Code" />
   <meta property="og:description" content="Sample of the bin: {{bin.metadata.summary}}" />
   {{else}}
   <meta property="og:url" content="{{root}}" />
-  <meta property="og:title" content="JS Bin" />
+  <meta property="og:title" content="JS Code" />
   <meta property="og:description" content="A live pastebin for HTML, CSS & JavaScript and a range of processors, including SCSS, CoffeeScript, Jade and more..." />
   {{/if}}
   <meta property="og:image" content="{{static}}/images/logo.png" />
@@ -61,22 +61,15 @@ if(top != self) {
   <a href="#">Load cached copy from <span></span></a>
 </div>
 <script type="template/text" id="profile-template">
-  <a title="@{name}" href="#profile" class="button button-dropdown avatar" id="accountBtn"><picture>
-    <source srcset="{avatar} 1x, {avatar}?&s=58 2x">
-    <img src="{avatar}">
-  </picture> Account</a>
+  <a title="@{name}" href="#profile" class="button button-dropdown avatar" id="accountBtn"> Account</a>
   <div class="dropdown dd-right" id="profile">
     <div class="dropdowncontent">
-      <div class="large-gravatar"><object data="{{static}}/images/default-avatar.min.svg?{name}&{{version}}" type="image/svg+xml">
-    <img src="{{static}}/images/default-avatar.min.svg?{{version}}"></object><picture class="large-gravatar">
-    <source srcset="{large_avatar} 1x, {large_avatar}?&s=240 2x">
-    <img class="large-gravatar" src="{large_avatar}">
-  </picture></div>
+
       <span class="input" id="username" readonly>
-        @{name}<sup class="pro">pro</sup>
+        {name}<sup class="pro">pro</sup>
       </span>
 
-      <ul>
+      <ul style="padding:0;">
         <li><a href="{{root}}/account/profile">Profile</a></li>
         <li><a href="{{root}}/account/editor">Editor settings</a></li>
         <li><a href="{{root}}/account/preferences">Preferences</a></li>
@@ -84,7 +77,6 @@ if(top != self) {
       </ul>
 
     </div>
-    <a href="{{root}}/upgrade" class="gopro">Support JS Bin: upgrade to PRO</a>
   </div>
 </script>
 <div id="bin" class="stretch" style="opacity: 0; filter:alpha(opacity=0);">

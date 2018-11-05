@@ -400,7 +400,7 @@
         return sweetCode;
     }
 
-    // https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
+    // http://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
     css_beautify.NESTED_AT_RULE = {
         "@page": true,
         "@font-face": true,
@@ -418,7 +418,7 @@
 
     /*global define */
     if (typeof define === "function" && define.amd) {
-        // Add support for AMD ( https://github.com/amdjs/amdjs-api/wiki/AMD#defineamd-property- )
+        // Add support for AMD ( http://github.com/amdjs/amdjs-api/wiki/AMD#defineamd-property- )
         define([], function() {
             return {
                 css_beautify: css_beautify

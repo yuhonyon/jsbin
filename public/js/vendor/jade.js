@@ -5028,7 +5028,7 @@ define(function (_dereq_, exports, module) {
  * http://opensource.org/licenses/BSD-3-Clause
  *
  * Based on the Base 64 VLQ implementation in Closure Compiler:
- * https://code.google.com/p/closure-compiler/source/browse/trunk/src/com/google/debugging/sourcemap/Base64VLQ.java
+ * http://code.google.com/p/closure-compiler/source/browse/trunk/src/com/google/debugging/sourcemap/Base64VLQ.java
  *
  * Copyright 2011 The Closure Compiler Authors. All rights reserved.
  * Redistribution and use in source and binary forms, with or without
@@ -5338,7 +5338,7 @@ define(function (_dereq_, exports, module) {
    *       mappings: "AA,AB;;ABCDE;"
    *     }
    *
-   * [0]: https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit?pli=1#
+   * [0]: http://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit?pli=1#
    */
   function SourceMapConsumer(aSourceMap) {
     var sourceMap = aSourceMap;
@@ -5655,7 +5655,7 @@ define(function (_dereq_, exports, module) {
         // XXX: file:// URIs and absolute paths lead to unexpected behavior for
         // many users. We can help them out when they expect file:// URIs to
         // behave like it would if they were running a local HTTP server. See
-        // https://bugzilla.mozilla.org/show_bug.cgi?id=885597.
+        // http://bugzilla.mozilla.org/show_bug.cgi?id=885597.
         var fileUriAbsPath = aSource.replace(/^file:\/\//, "");
         if (url.scheme == "file"
             && this._sources.has(fileUriAbsPath)) {
@@ -6747,8 +6747,8 @@ define(function (_dereq_, exports, module) {
    * Because behavior goes wacky when you set `__proto__` on objects, we
    * have to prefix all the strings in our set with an arbitrary character.
    *
-   * See https://github.com/mozilla/source-map/pull/31 and
-   * https://github.com/mozilla/source-map/issues/30
+   * See http://github.com/mozilla/source-map/pull/31 and
+   * http://github.com/mozilla/source-map/issues/30
    *
    * @param String aStr
    */
@@ -7175,7 +7175,7 @@ var UglifyJS = exports;
 /***********************************************************************
 
   A JavaScript tokenizer / parser / beautifier / compressor.
-  https://github.com/mishoo/UglifyJS2
+  http://github.com/mishoo/UglifyJS2
 
   -------------------------------- (C) ---------------------------------
 
@@ -7390,7 +7390,7 @@ function set_intersection(a, b) {
 };
 
 // this function is taken from Acorn [1], written by Marijn Haverbeke
-// [1] https://github.com/marijnh/acorn
+// [1] http://github.com/marijnh/acorn
 function makePredicate(words) {
     if (!(words instanceof Array)) words = words.split(" ");
     var f = "", cats = [];
@@ -7478,7 +7478,7 @@ Dictionary.prototype = {
 /***********************************************************************
 
   A JavaScript tokenizer / parser / beautifier / compressor.
-  https://github.com/mishoo/UglifyJS2
+  http://github.com/mishoo/UglifyJS2
 
   -------------------------------- (C) ---------------------------------
 
@@ -8463,7 +8463,7 @@ TreeWalker.prototype = {
 /***********************************************************************
 
   A JavaScript tokenizer / parser / beautifier / compressor.
-  https://github.com/mishoo/UglifyJS2
+  http://github.com/mishoo/UglifyJS2
 
   -------------------------------- (C) ---------------------------------
 
@@ -8829,7 +8829,7 @@ function tokenizer($TEXT, filename, html5_comments) {
             var ch = next(true);
             if (ch == "\\") {
                 // read OctalEscapeSequence (XXX: deprecated if "strict mode")
-                // https://github.com/mishoo/UglifyJS/issues/178
+                // http://github.com/mishoo/UglifyJS/issues/178
                 var octal_len = 0, first = null;
                 ch = read_while(function(ch){
                     if (ch >= "0" && ch <= "7") {
@@ -9317,7 +9317,7 @@ function parse($TEXT, options) {
         if (!(stat instanceof AST_IterationStatement)) {
             // check for `continue` that refers to this label.
             // those should be reported as syntax errors.
-            // https://github.com/mishoo/UglifyJS2/issues/287
+            // http://github.com/mishoo/UglifyJS2/issues/287
             label.references.forEach(function(ref){
                 if (ref instanceof AST_Continue) {
                     ref = ref.label.start;
@@ -9921,7 +9921,7 @@ function parse($TEXT, options) {
 /***********************************************************************
 
   A JavaScript tokenizer / parser / beautifier / compressor.
-  https://github.com/mishoo/UglifyJS2
+  http://github.com/mishoo/UglifyJS2
 
   -------------------------------- (C) ---------------------------------
 
@@ -10140,7 +10140,7 @@ TreeTransformer.prototype = new TreeWalker;
 /***********************************************************************
 
   A JavaScript tokenizer / parser / beautifier / compressor.
-  https://github.com/mishoo/UglifyJS2
+  http://github.com/mishoo/UglifyJS2
 
   -------------------------------- (C) ---------------------------------
 
@@ -10386,7 +10386,7 @@ AST_Scope.DEFMETHOD("next_mangled", function(options){
         var m = base54(++this.cname);
         if (!is_identifier(m)) continue; // skip over "do"
 
-        // https://github.com/mishoo/UglifyJS2/issues/242 -- do not
+        // http://github.com/mishoo/UglifyJS2/issues/242 -- do not
         // shadow a name excepted from mangling.
         if (options.except.indexOf(m) >= 0) continue;
 
@@ -10708,7 +10708,7 @@ AST_Toplevel.DEFMETHOD("scope_warnings", function(options){
 /***********************************************************************
 
   A JavaScript tokenizer / parser / beautifier / compressor.
-  https://github.com/mishoo/UglifyJS2
+  http://github.com/mishoo/UglifyJS2
 
   -------------------------------- (C) ---------------------------------
 
@@ -11093,8 +11093,8 @@ function OutputStream(options) {
                 start._comments_dumped = true;
                 var comments = start.comments_before || [];
 
-                // XXX: ugly fix for https://github.com/mishoo/UglifyJS2/issues/112
-                //               and https://github.com/mishoo/UglifyJS2/issues/372
+                // XXX: ugly fix for http://github.com/mishoo/UglifyJS2/issues/112
+                //               and http://github.com/mishoo/UglifyJS2/issues/372
                 if (self instanceof AST_Exit && self.value) {
                     self.value.walk(new TreeWalker(function(node){
                         if (node.start && node.start.comments_before) {
@@ -11228,7 +11228,7 @@ function OutputStream(options) {
             return true;
 
         // workaround for Safari bug.
-        // https://bugs.webkit.org/show_bug.cgi?id=123506
+        // http://bugs.webkit.org/show_bug.cgi?id=123506
         return this.expression instanceof AST_Function
             && p instanceof AST_PropAccess
             && p.expression === this
@@ -11483,7 +11483,7 @@ function OutputStream(options) {
             return output.force_semicolon();
         if (self.body instanceof AST_Do
             && !output.option("screw_ie8")) {
-            // https://github.com/mishoo/UglifyJS/issues/#issue/57 IE
+            // http://github.com/mishoo/UglifyJS/issues/#issue/57 IE
             // croaks with "syntax error" on code like this: if (foo)
             // do ... while(cond); else ...  we need block brackets
             // around do/while
@@ -11617,7 +11617,7 @@ function OutputStream(options) {
         if (!noin) node.print(output);
         else try {
             // need to take some precautions here:
-            //    https://github.com/mishoo/UglifyJS2/issues/60
+            //    http://github.com/mishoo/UglifyJS2/issues/60
             node.walk(new TreeWalker(function(node){
                 if (node instanceof AST_Binary && node.operator == "in")
                     throw output;
@@ -12009,7 +12009,7 @@ function OutputStream(options) {
 /***********************************************************************
 
   A JavaScript tokenizer / parser / beautifier / compressor.
-  https://github.com/mishoo/UglifyJS2
+  http://github.com/mishoo/UglifyJS2
 
   -------------------------------- (C) ---------------------------------
 
@@ -13149,7 +13149,7 @@ merge(Compressor.prototype, {
 
                         if (node.init instanceof AST_BlockStatement) {
                             // certain combination of unused name + side effect leads to:
-                            //    https://github.com/mishoo/UglifyJS2/issues/44
+                            //    http://github.com/mishoo/UglifyJS2/issues/44
                             // that's an invalid AST.
                             // We fix it at this stage by moving the `var` outside the `for`.
 
@@ -13722,7 +13722,7 @@ merge(Compressor.prototype, {
                   case "Function":
                     if (all(self.args, function(x){ return x instanceof AST_String })) {
                         // quite a corner-case, but we can handle it:
-                        //   https://github.com/mishoo/UglifyJS2/issues/203
+                        //   http://github.com/mishoo/UglifyJS2/issues/203
                         // if the code argument is a constant, then we can minify it.
                         try {
                             var code = "(function(" + self.args.slice(0, -1).map(function(arg){
@@ -14384,7 +14384,7 @@ merge(Compressor.prototype, {
 /***********************************************************************
 
   A JavaScript tokenizer / parser / beautifier / compressor.
-  https://github.com/mishoo/UglifyJS2
+  http://github.com/mishoo/UglifyJS2
 
   -------------------------------- (C) ---------------------------------
 
@@ -14472,7 +14472,7 @@ function SourceMap(options) {
 /***********************************************************************
 
   A JavaScript tokenizer / parser / beautifier / compressor.
-  https://github.com/mishoo/UglifyJS2
+  http://github.com/mishoo/UglifyJS2
 
   -------------------------------- (C) ---------------------------------
 

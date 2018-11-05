@@ -2101,7 +2101,7 @@ define("rsvp/utils",
     }
 
     __exports__.isArray = isArray;// Date.now is not available in browsers < IE9
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now#Compatibility
+    // http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now#Compatibility
     var now = Date.now || function() { return new Date().getTime(); };
     __exports__.now = now;
     var keysOf = Object.keys || function(object) {

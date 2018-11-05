@@ -140,7 +140,7 @@ var shutdown = setTimeout(doShutdown, maxIdleTime);
 process.stdin.on("end", function() { process.exit(); });
 process.stdin.resume();
 
-var httpServer = require("http").createServer(function(req, resp) {
+var httperver = require("http").createServer(function(req, resp) {
   clearTimeout(shutdown);
   shutdown = setTimeout(doShutdown, maxIdleTime);
 
@@ -157,8 +157,8 @@ var httpServer = require("http").createServer(function(req, resp) {
     else respondSimple(resp, 400, "Missing query document");
   }
 });
-httpServer.listen(port, "127.0.0.1", function() {
-  var port = httpServer.address().port;
+httperver.listen(port, "127.0.0.1", function() {
+  var port = httperver.address().port;
   if (!noPortFile) {
     var portFile = path.resolve(projectDir, portFileName);
     fs.writeFileSync(portFile, String(port), "utf8");

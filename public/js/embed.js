@@ -97,7 +97,7 @@
   }
 
 
-  // ---- here begins the jsbin embed - based on the embedding doc: https://github.com/jsbin/jsbin/blob/master/docs/embedding.md
+  // ---- here begins the jsbin embed - based on the embedding doc: http://github.com/jsbin/jsbin/blob/master/docs/embedding.md
 
   var innerText = document.createElement('i').innerText === undefined ? 'textContent' : 'innerText';
 
@@ -249,7 +249,7 @@
       hookMessaging(iframe);
     } else {
       iframe.setAttribute('data-url', url);
-      iframe.src = 'https://jsbin.com/embed-holding';
+      iframe.src = 'http://jsbin.com/embed-holding';
 
       pending.push(iframe);
     }

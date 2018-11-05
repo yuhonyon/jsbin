@@ -1,7 +1,7 @@
 /*
   DTD mode
   Ported to CodeMirror by Peter Kroon <plakroon@gmail.com>
-  Report bugs/issues here: https://github.com/marijnh/CodeMirror/issues
+  Report bugs/issues here: http://github.com/marijnh/CodeMirror/issues
   GitHub: @peterkroon
 */
 

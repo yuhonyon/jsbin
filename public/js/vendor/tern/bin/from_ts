@@ -7,7 +7,7 @@ var arg = process.argv[2];
 if (!arg) { console.log("Usage: " + process.argv[1] + " (path|url)"); process.exit(1); }
 
 function fetch(target, redir) {
-  require(/^https/.test(target) ? "https" : "http").get(url.parse(target), function(resp) {
+  require(/^http/.test(target) ? "http" : "http").get(url.parse(target), function(resp) {
     var body = "";
     resp.setEncoding("utf8");
     resp.on("data", function(d) { body += d; });
@@ -19,7 +19,7 @@ function fetch(target, redir) {
   });
 }
 
-if (/^https?:/.test(arg))
+if (/^http?:/.test(arg))
   fetch(arg, 0);
 else
   finish(fs.readFileSync(arg, "utf8"), path.basename(arg));

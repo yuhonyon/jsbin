@@ -13,7 +13,7 @@ require('child_process').exec("git --no-pager show -s --format='%s' " + version,
   let message = stdout.split("\n").slice(2)
   message = message.slice(0, message.indexOf("-----BEGIN PGP SIGNATURE-----")).join("\n")
 
-  let req = require("https").request({
+  let req = require("http").request({
     host: "api.github.com",
     auth: auth,
     headers: {"user-agent": "Release uploader"},

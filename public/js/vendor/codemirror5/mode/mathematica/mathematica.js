@@ -3,7 +3,7 @@
 
 // Mathematica mode copyright (c) 2015 by Calin Barbat
 // Based on code by Patrick Scheibe (halirutan)
-// See: https://github.com/halirutan/Mathematica-Source-Highlighting/tree/master/src/lang-mma.js
+// See: http://github.com/halirutan/Mathematica-Source-Highlighting/tree/master/src/lang-mma.js
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS

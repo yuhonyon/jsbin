@@ -1,4 +1,4 @@
-// Depends on jsonlint.js from https://github.com/zaach/jsonlint
+// Depends on jsonlint.js from http://github.com/zaach/jsonlint
 
 // declare global: jsonlint
 

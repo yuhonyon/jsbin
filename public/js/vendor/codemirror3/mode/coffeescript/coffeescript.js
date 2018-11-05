@@ -1,6 +1,6 @@
 /**
  * Link to the project's GitHub page:
- * https://github.com/pickhardt/coffeescript-codemirror-mode
+ * http://github.com/pickhardt/coffeescript-codemirror-mode
  */
 CodeMirror.defineMode("coffeescript", function(conf) {
   var ERRORCLASS = "error";

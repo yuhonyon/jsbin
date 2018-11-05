@@ -6179,16 +6179,16 @@ module.exports={
 		"apng": {
 			"title": "Animated PNG (APNG)",
 			"description": "Like animated GIFs, but allowing 24-bit colors and alpha transparency",
-			"spec": "https://wiki.mozilla.org/APNG_Specification",
+			"spec": "http://wiki.mozilla.org/APNG_Specification",
 			"status": "unoff",
 			"links": [{
 				"url": "http://en.wikipedia.org/wiki/APNG",
 				"title": "Wikipedia"
 			}, {
-				"url": "https://github.com/davidmz/apng-canvas",
+				"url": "http://github.com/davidmz/apng-canvas",
 				"title": "Polyfill using canvas"
 			}, {
-				"url": "https://chrome.google.com/webstore/detail/ehkepjiconegkhpodgoaeamnpckdbblp",
+				"url": "http://chrome.google.com/webstore/detail/ehkepjiconegkhpodgoaeamnpckdbblp",
 				"title": "Chrome extension providing support"
 			}, {
 				"url": "http://www.truekolor.net/learn-how-to-create-an-animated-png/",
@@ -6350,7 +6350,7 @@ module.exports={
 			"spec": "http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#video",
 			"status": "wd",
 			"links": [{
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/video.js#video",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/video.js#video",
 				"title": "has.js test"
 			}, {
 				"url": "http://webmproject.org",
@@ -6536,7 +6536,7 @@ module.exports={
 				"url": "http://www.phoboslab.org/log/2011/03/the-state-of-html5-audio",
 				"title": "The State of HTML5 Audio"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/audio.js#audio",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/audio.js#audio",
 				"title": "has.js test"
 			}, {
 				"url": "http://dev.opera.com/articles/view/everything-you-need-to-know-about-html5-video-and-audio/",
@@ -7046,10 +7046,10 @@ module.exports={
 				"url": "http://cjihrig.com/blog/javascripts-selectors-api/",
 				"title": "Blog post"
 			}, {
-				"url": "https://developer.mozilla.org/En/DOM/Element.querySelectorAll",
+				"url": "http://developer.mozilla.org/En/DOM/Element.querySelectorAll",
 				"title": "MDN article on querySelectorAll"
 			}, {
-				"url": "https://developer.mozilla.org/en/DOM/element.querySelector",
+				"url": "http://developer.mozilla.org/en/DOM/element.querySelector",
 				"title": "MDN article on querySelector"
 			}],
 			"categories": ["DOM"],
@@ -7370,7 +7370,7 @@ module.exports={
 			"spec": "http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html",
 			"status": "wd",
 			"links": [{
-				"url": "https://github.com/westonruter/webforms2",
+				"url": "http://github.com/westonruter/webforms2",
 				"title": "Cross-browser JS implementation (based on original spec)"
 			}, {
 				"url": "http://www.miketaylr.com/code/input-type-attr.html",
@@ -7538,7 +7538,7 @@ module.exports={
 				"url": "http://blog.whatwg.org/supporting-new-elements-in-ie",
 				"title": "Workaround for IE"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/dom.js#dom-html5-elements",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/dom.js#dom-html5-elements",
 				"title": "has.js test"
 			}, {
 				"url": "http://blog.whatwg.org/styling-ie-noscript",
@@ -7874,7 +7874,7 @@ module.exports={
 				"url": "http://net.tutsplus.com/tutorials/javascript-ajax/getting-started-with-web-workers/",
 				"title": "Tutorial"
 			}, {
-				"url": "https://developer.mozilla.org/En/Using_web_workers",
+				"url": "http://developer.mozilla.org/En/Using_web_workers",
 				"title": "MDN article"
 			}, {
 				"url": "http://nerget.com/rayjs-mt/rayjs.html",
@@ -8852,7 +8852,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/css3-background/#backgrounds",
 			"status": "cr",
 			"links": [{
-				"url": "https://github.com/louisremi/background-size-polyfill",
+				"url": "http://github.com/louisremi/background-size-polyfill",
 				"title": "Polyfill for IE7-8"
 			}, {
 				"url": "http://www.standardista.com/css3/css3-background-properties",
@@ -9515,7 +9515,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/dom/events/hashchange",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://developer.mozilla.org/en/DOM/window.onhashchange",
+				"url": "http://developer.mozilla.org/en/DOM/window.onhashchange",
 				"title": "MDN article"
 			}, {
 				"url": "http://github.com/3nr1c/jUri.js",
@@ -10187,7 +10187,7 @@ module.exports={
 				"url": "http://www.css3files.com/shadow/",
 				"title": "Information page"
 			}, {
-				"url": "https://developer.mozilla.org/En/CSS/-moz-box-shadow",
+				"url": "http://developer.mozilla.org/En/CSS/-moz-box-shadow",
 				"title": "MDN article"
 			}, {
 				"url": "http://westciv.com/tools/boxshadows/index.html",
@@ -10532,10 +10532,10 @@ module.exports={
 				"url": "http://css-tricks.com/box-sizing/",
 				"title": "CSS Tricks"
 			}, {
-				"url": "https://github.com/Schepp/box-sizing-polyfill",
+				"url": "http://github.com/Schepp/box-sizing-polyfill",
 				"title": "Polyfill for IE"
 			}, {
-				"url": "https://developer.mozilla.org/En/CSS/Box-sizing",
+				"url": "http://developer.mozilla.org/En/CSS/Box-sizing",
 				"title": "MDN article"
 			}, {
 				"url": "http://www.456bereastreet.com/archive/201104/controlling_width_with_css3_box-sizing/",
@@ -10703,7 +10703,7 @@ module.exports={
 				"url": "http://ie.microsoft.com/testdrive/HTML5/85CSS3_MediaQueries/",
 				"title": "IE demo page with information"
 			}, {
-				"url": "https://github.com/scottjehl/Respond",
+				"url": "http://github.com/scottjehl/Respond",
 				"title": "Polyfill for IE"
 			}, {
 				"url": "http://webdesignerwall.com/tutorials/responsive-design-with-css3-media-queries",
@@ -11210,10 +11210,10 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/css/transforms/transform",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/css.js#css-transform",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/css.js#css-transform",
 				"title": "has.js test"
 			}, {
-				"url": "https://developer.mozilla.org/en/CSS/-moz-transform",
+				"url": "http://developer.mozilla.org/en/CSS/-moz-transform",
 				"title": "MDN article"
 			}, {
 				"url": "http://www.webresourcesdepot.com/cross-browser-css-transforms-csssandpaper/",
@@ -11552,7 +11552,7 @@ module.exports={
 				"url": "http://hacks.mozilla.org/2011/10/css-3d-transformations-in-firefox-nightly/",
 				"title": "Mozilla hacks article"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/css.js#css-transform",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/css.js#css-transform",
 				"title": "has.js test"
 			}],
 			"categories": ["CSS3"],
@@ -11873,7 +11873,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/css3-text/#hyphenation",
 			"status": "wd",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/CSS/hyphens",
+				"url": "http://developer.mozilla.org/en/CSS/hyphens",
 				"title": "MDN article"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/css/properties/hyphens",
@@ -13199,7 +13199,7 @@ module.exports={
 				"url": "http://code.google.com/p/svgweb/",
 				"title": "SVG Web: Flash-based polyfill"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/graphics.js#svg",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/graphics.js#svg",
 				"title": "has.js test"
 			}, {
 				"url": "http://svg-edit.googlecode.com",
@@ -13526,10 +13526,10 @@ module.exports={
 			"spec": "http://www.w3.org/TR/SVG/animate.html",
 			"status": "rec",
 			"links": [{
-				"url": "https://github.com/madsgraphics/SVGEventListener",
+				"url": "http://github.com/madsgraphics/SVGEventListener",
 				"title": "Polyfill for SMIL animate events on SVG"
 			}, {
-				"url": "https://developer.mozilla.org/en/SVG/SVG_animation_with_SMIL",
+				"url": "http://developer.mozilla.org/en/SVG/SVG_animation_with_SMIL",
 				"title": "MDN article"
 			}, {
 				"url": "http://svg-wow.org/blog/category/animation/",
@@ -13538,7 +13538,7 @@ module.exports={
 				"url": "http://leunen.me/fakesmile/",
 				"title": "JS library to support SMIL in SVG"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/graphics.js#svg-smil",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/graphics.js#svg-smil",
 				"title": "has.js test"
 			}],
 			"categories": ["SVG"],
@@ -14024,13 +14024,13 @@ module.exports={
 			"spec": "http://www.w3.org/TR/SVG11/extend.html#ForeignObjectElement",
 			"status": "wd",
 			"links": [{
-				"url": "https://developer.mozilla.org/En/Applying_SVG_effects_to_HTML_content",
+				"url": "http://developer.mozilla.org/En/Applying_SVG_effects_to_HTML_content",
 				"title": "MDN Reference page"
 			}, {
-				"url": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html",
+				"url": "http://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html",
 				"title": "Filter Effects draft"
 			}, {
-				"url": "https://developer.mozilla.org/en/SVG/Tutorial/Other_content_in_SVG",
+				"url": "http://developer.mozilla.org/en/SVG/Tutorial/Other_content_in_SVG",
 				"title": "MDN Tutorial"
 			}],
 			"categories": ["SVG"],
@@ -14176,7 +14176,7 @@ module.exports={
 					"10": "n"
 				}
 			},
-			"notes": "Partial support refers to lack of filter support or buggy result from effects. A <a href=\"https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html\">CSS Filter Effects</a> specification is in the works that would replace this method.",
+			"notes": "Partial support refers to lack of filter support or buggy result from effects. A <a href=\"http://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html\">CSS Filter Effects</a> specification is in the works that would replace this method.",
 			"usage_perc_y": 15.33,
 			"usage_perc_a": 60.21,
 			"ucprefix": false,
@@ -14351,13 +14351,13 @@ module.exports={
 			"spec": "http://www.w3.org/TR/html5/embedded-content-0.html#the-canvas-element",
 			"status": "cr",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/Canvas_tutorial",
+				"url": "http://developer.mozilla.org/en/Canvas_tutorial",
 				"title": "Tutorial by Mozilla"
 			}, {
 				"url": "http://explorercanvas.googlecode.com/",
 				"title": "Implementation for Internet Explorer"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/graphics.js#canvas",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/graphics.js#canvas",
 				"title": "has.js test"
 			}, {
 				"url": "http://www.diveinto.org/html5/canvas.html",
@@ -14531,10 +14531,10 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/apis/canvas/CanvasRenderingContext2D/fillText",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/graphics.js#canvas-text",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/graphics.js#canvas-text",
 				"title": "has.js test"
 			}, {
-				"url": "https://developer.mozilla.org/en/Drawing_text_using_a_canvas#Additional_examples",
+				"url": "http://developer.mozilla.org/en/Drawing_text_using_a_canvas#Additional_examples",
 				"title": "Examples by Mozilla"
 			}],
 			"categories": ["Canvas", "HTML5"],
@@ -14699,10 +14699,10 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/apis/web-storage/Storage/localStorage",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://developer.mozilla.org/En/DOM/Storage",
+				"url": "http://developer.mozilla.org/En/DOM/Storage",
 				"title": "Gecko reference"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-localstorage;native-sessionstorage",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-localstorage;native-sessionstorage",
 				"title": "has.js test"
 			}, {
 				"url": "http://code.google.com/p/sessionstorage/",
@@ -14864,7 +14864,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/webdatabase/",
 			"status": "unoff",
 			"links": [{
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-sql-db",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-sql-db",
 				"title": "has.js test"
 			}, {
 				"url": "http://html5doctor.com/introducing-web-sql-databases/",
@@ -15029,13 +15029,13 @@ module.exports={
 				"url": "http://hacks.mozilla.org/2010/06/comparing-indexeddb-and-webdatabase/",
 				"title": "Mozilla Hacks article"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-indexeddb",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-indexeddb",
 				"title": "has.js test"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/apis/indexedDB",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://github.com/axemclion/IndexedDBShim",
+				"url": "http://github.com/axemclion/IndexedDBShim",
 				"title": "Polyfill for browsers supporting WebSQL"
 			}],
 			"categories": ["JS API"],
@@ -15197,7 +15197,7 @@ module.exports={
 				"url": "http://www.html5rocks.com/tutorials/eventsource/basics/",
 				"title": "HTML5 Rocks tutorial"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-eventsource",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-eventsource",
 				"title": "has.js test"
 			}, {
 				"url": "http://samshull.blogspot.com/2010/10/ajax-push-in-ios-safari-and-chrome-with.html",
@@ -15359,13 +15359,13 @@ module.exports={
 			"spec": "http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#crossDocumentMessages",
 			"status": "wd",
 			"links": [{
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-crosswindowmessaging",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-crosswindowmessaging",
 				"title": "has.js test"
 			}, {
 				"url": "http://html5demos.com/postmessage2",
 				"title": "Simple demo"
 			}, {
-				"url": "https://developer.mozilla.org/en/DOM/window.postMessage",
+				"url": "http://developer.mozilla.org/en/DOM/window.postMessage",
 				"title": "MDN article"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/apis/web-messaging/methods/postMessage_%28window%29",
@@ -15704,7 +15704,7 @@ module.exports={
 				"url": "http://www.mathjax.org",
 				"title": "Cross-browser support script"
 			}, {
-				"url": "https://developer.mozilla.org/en/MathML/Element",
+				"url": "http://developer.mozilla.org/en/MathML/Element",
 				"title": "MDN element reference"
 			}],
 			"categories": ["Other"],
@@ -15869,7 +15869,7 @@ module.exports={
 				"url": "http://mcc.id.au/blog/2012/08/supports",
 				"title": "@supports in Firefox"
 			}, {
-				"url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@supports",
+				"url": "http://developer.mozilla.org/en-US/docs/Web/CSS/@supports",
 				"title": "MDN Article"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/css/atrules/@supports",
@@ -16183,7 +16183,7 @@ module.exports={
 					"10": "y"
 				}
 			},
-			"notes": "The XHTML syntax is very close to HTML, and thus is almost always (<a href=\"https://developer.mozilla.org/en-US/docs/XHTML#MIME_type_versus_DOCTYPE\">incorrectly</a>) served as text/html on the web.",
+			"notes": "The XHTML syntax is very close to HTML, and thus is almost always (<a href=\"http://developer.mozilla.org/en-US/docs/XHTML#MIME_type_versus_DOCTYPE\">incorrectly</a>) served as text/html on the web.",
 			"usage_perc_y": 85.55,
 			"usage_perc_a": 0,
 			"ucprefix": false,
@@ -16529,7 +16529,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/geolocation-API/",
 			"status": "cr",
 			"links": [{
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-geolocation",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-geolocation",
 				"title": "has.js test"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/apis/geolocation",
@@ -16862,7 +16862,7 @@ module.exports={
 		"webgl": {
 			"title": "WebGL - 3D Canvas graphics",
 			"description": "Method of generating dynamic 3D graphics using JavaScript, accelerated through hardware",
-			"spec": "https://www.khronos.org/registry/webgl/specs/1.0/",
+			"spec": "http://www.khronos.org/registry/webgl/specs/1.0/",
 			"status": "other",
 			"links": [{
 				"url": "http://khronos.org/webgl/wiki/Getting_a_WebGL_Implementation",
@@ -17036,7 +17036,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/FileAPI/",
 			"status": "wd",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/Using_files_from_web_applications",
+				"url": "http://developer.mozilla.org/en/Using_files_from_web_applications",
 				"title": "MDN article"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/apis/file",
@@ -17363,7 +17363,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/apis/websocket",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-websockets",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-websockets",
 				"title": "has.js test"
 			}, {
 				"url": "http://websocket.org/aboutwebsocket.html",
@@ -17531,10 +17531,10 @@ module.exports={
 			"spec": "http://www.w3.org/TR/html5/scripting-1.html#attr-script-async",
 			"status": "cr",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/HTML/Element/script#Attributes",
+				"url": "http://developer.mozilla.org/en/HTML/Element/script#Attributes",
 				"title": "MDN article"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/script.js#script-async",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/script.js#script-async",
 				"title": "has.js test"
 			}, {
 				"url": "http://ie.microsoft.com/testdrive/Performance/AsyncScripts/Default.html",
@@ -17702,7 +17702,7 @@ module.exports={
 				"url": "http://hacks.mozilla.org/2009/07/cross-site-xmlhttprequest-with-cors/",
 				"title": "Mozilla Hacks blog post"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-cors-xhr",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-cors-xhr",
 				"title": "has.js test"
 			}, {
 				"url": "http://msdn.microsoft.com/en-us/library/cc288060(VS.85).aspx",
@@ -17870,7 +17870,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/css/functions/calc",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://developer.mozilla.org/en/CSS/-moz-calc",
+				"url": "http://developer.mozilla.org/en/CSS/-moz-calc",
 				"title": "MDN article"
 			}, {
 				"url": "http://hacks.mozilla.org/2010/06/css3-calc/",
@@ -18032,7 +18032,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/html-markup/ruby.html",
 			"status": "wd",
 			"links": [{
-				"url": "https://addons.mozilla.org/firefox/addon/6812/",
+				"url": "http://addons.mozilla.org/firefox/addon/6812/",
 				"title": "Addon \"HTML Ruby\" for Firefox support"
 			}, {
 				"url": "http://html5doctor.com/ruby-rt-rp-element/",
@@ -18041,7 +18041,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/html/elements/ruby",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://addons.mozilla.org/firefox/addon/1935/",
+				"url": "http://addons.mozilla.org/firefox/addon/1935/",
 				"title": "Add-on \"XHTML Ruby Support\" for Firefox"
 			}],
 			"categories": ["HTML5"],
@@ -18521,10 +18521,10 @@ module.exports={
 			"spec": "http://www.w3.org/TR/html5/browsers.html#history-1",
 			"status": "cr",
 			"links": [{
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-history-state",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-history-state",
 				"title": "has.js test"
 			}, {
-				"url": "https://github.com/browserstate/history.js",
+				"url": "http://github.com/browserstate/history.js",
 				"title": "History.js polyfill "
 			}, {
 				"url": "http://docs.webplatform.org/wiki/dom/history",
@@ -18536,7 +18536,7 @@ module.exports={
 				"url": "http://www.adequatelygood.com/2010/7/Saner-HTML5-History-Management",
 				"title": "Introduction to history management"
 			}, {
-				"url": "https://developer.mozilla.org/en/DOM/Manipulating_the_browser_history",
+				"url": "http://developer.mozilla.org/en/DOM/Manipulating_the_browser_history",
 				"title": "MDN article"
 			}],
 			"categories": ["HTML5"],
@@ -18698,13 +18698,13 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/apis/json",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/json.js#json",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/json.js#json",
 				"title": "has.js test"
 			}, {
 				"url": "http://www.json.org/js.html",
 				"title": "JSON in JS (includes script w/support)"
 			}, {
-				"url": "https://developer.mozilla.org/En/Using_native_JSON",
+				"url": "http://developer.mozilla.org/En/Using_native_JSON",
 				"title": "MDN article"
 			}],
 			"categories": ["JS API"],
@@ -18863,7 +18863,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/dom/#dom-element-classlist",
 			"status": "wd",
 			"links": [{
-				"url": "https://github.com/eligrey/classList.js",
+				"url": "http://github.com/eligrey/classList.js",
 				"title": "Polyfill script"
 			}, {
 				"url": "http://hacks.mozilla.org/2010/01/classlist-in-firefox-3-6/",
@@ -18872,7 +18872,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/dom/properties/classList",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://github.com/eligrey/classList.js/pull/12",
+				"url": "http://github.com/eligrey/classList.js/pull/12",
 				"title": "Polyfill script for classList on SVG elements on WebKit"
 			}],
 			"categories": ["DOM", "HTML5"],
@@ -19034,16 +19034,16 @@ module.exports={
 				"url": "http://www.css3files.com/text/",
 				"title": "Information page"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/css.js#css-text-overflow",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/css.js#css-text-overflow",
 				"title": "has.js test"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/css/properties/text-overflow",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://developer.mozilla.org/En/CSS/Text-overflow",
+				"url": "http://developer.mozilla.org/En/CSS/Text-overflow",
 				"title": "MDN article"
 			}, {
-				"url": "https://github.com/rmorse/AutoEllipsis",
+				"url": "http://github.com/rmorse/AutoEllipsis",
 				"title": "jQuery polyfill for Firefox"
 			}],
 			"categories": ["CSS3"],
@@ -19205,13 +19205,13 @@ module.exports={
 				"url": "http://perian.org/",
 				"title": "Perian :Mac OSX Webm Codec install"
 			}, {
-				"url": "https://tools.google.com/dlpage/webmmf",
+				"url": "http://tools.google.com/dlpage/webmmf",
 				"title": "Codec for IE9 support"
 			}, {
 				"url": "http://webmproject.org",
 				"title": "Officical website"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/video.js#video-webm",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/video.js#video-webm",
 				"title": "has.js test"
 			}, {
 				"url": "http://www.broken-links.com/2010/09/01/playing-webm-in-safari-with-plugins/",
@@ -19697,7 +19697,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/css/properties/word-wrap",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://developer.mozilla.org/En/CSS/Word-wrap",
+				"url": "http://developer.mozilla.org/En/CSS/Word-wrap",
 				"title": "MDN article"
 			}, {
 				"url": "http://www.css3files.com/text/#wordwrap",
@@ -20195,10 +20195,10 @@ module.exports={
 				"url": "http://www.profilepicture.co.uk/tutorials/ajax-file-upload-xmlhttprequest-level-2/",
 				"title": "Article with file upload demo"
 			}, {
-				"url": "https://developer.mozilla.org/en/XMLHttpRequest/FormData",
+				"url": "http://developer.mozilla.org/en/XMLHttpRequest/FormData",
 				"title": "MDN article on FormData"
 			}, {
-				"url": "https://github.com/3nr1c/jUri.js",
+				"url": "http://github.com/3nr1c/jUri.js",
 				"title": "Polyfill for FormData object"
 			}],
 			"categories": ["DOM", "JS API"],
@@ -20531,10 +20531,10 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/html/elements/details",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-details",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-details",
 				"title": "has.js test"
 			}, {
-				"url": "https://gist.github.com/370590",
+				"url": "http://gist.github.com/370590",
 				"title": "Fallback script"
 			}],
 			"categories": ["HTML5"],
@@ -21026,7 +21026,7 @@ module.exports={
 				"url": "http://www.chromium.org/developers/design-documents/desktop-notifications/api-specification",
 				"title": "Chromium API"
 			}, {
-				"url": "https://addons.mozilla.org/en-us/firefox/addon/221523/",
+				"url": "http://addons.mozilla.org/en-us/firefox/addon/221523/",
 				"title": "Add-on "
 			}],
 			"categories": ["JS API"],
@@ -21515,7 +21515,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/html/elements/datalist",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://developer.mozilla.org/en/HTML/Element/datalist",
+				"url": "http://developer.mozilla.org/en/HTML/Element/datalist",
 				"title": "MDN reference"
 			}, {
 				"url": "http://afarkas.github.com/webshim/demos/",
@@ -21683,7 +21683,7 @@ module.exports={
 				"url": "http://www.orangesoda.net/jquery.dataset.html",
 				"title": "jQuery polyfill for dataset support"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/dom.js#dom-dataset",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/dom.js#dom-dataset",
 				"title": "has.js test"
 			}, {
 				"url": "http://html5demos.com/dataset",
@@ -21851,16 +21851,16 @@ module.exports={
 			"spec": "http://www.w3.org/TR/css3-grid-layout/",
 			"status": "wd",
 			"links": [{
-				"url": "https://bugzilla.mozilla.org/show_bug.cgi?id=616605",
+				"url": "http://bugzilla.mozilla.org/show_bug.cgi?id=616605",
 				"title": "Mozilla (Firefox) feature request"
 			}, {
 				"url": "http://blogs.msdn.com/b/ie/archive/2011/04/14/ie10-platform-preview-and-css-features-for-adaptive-layouts.aspx",
 				"title": "IE Blog post"
 			}, {
-				"url": "https://github.com/codler/Grid-Layout-Polyfill",
+				"url": "http://github.com/codler/Grid-Layout-Polyfill",
 				"title": "Grid Layout Polyfill"
 			}, {
-				"url": "https://bugs.webkit.org/show_bug.cgi?id=60731",
+				"url": "http://bugs.webkit.org/show_bug.cgi?id=60731",
 				"title": "Webkit (Chrome, Safari, etc.) feature request"
 			}],
 			"categories": ["CSS"],
@@ -22019,10 +22019,10 @@ module.exports={
 			"spec": "http://www.w3.org/TR/html5/interactive-elements.html#context-menus",
 			"status": "cr",
 			"links": [{
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/events.js#event-contextmenu",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/events.js#event-contextmenu",
 				"title": "has.js test"
 			}, {
-				"url": "https://bug617528.bugzilla.mozilla.org/attachment.cgi?id=554309",
+				"url": "http://bug617528.bugzilla.mozilla.org/attachment.cgi?id=554309",
 				"title": "Demo"
 			}, {
 				"url": "http://addyosmani.github.com/jQuery-contextMenu/",
@@ -22670,7 +22670,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/selectors-api2/",
 			"status": "wd",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/DOM/Element.mozMatchesSelector",
+				"url": "http://developer.mozilla.org/en/DOM/Element.mozMatchesSelector",
 				"title": "MDN article"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/dom/methods/matchesSelector",
@@ -22835,7 +22835,7 @@ module.exports={
 				"url": "http://robertnyman.com/2010/03/22/css-pointer-events-to-allow-clicks-on-underlying-elements/",
 				"title": "Article & tutorial"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/css.js#css-pointerevents",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/css.js#css-pointerevents",
 				"title": "has.js test"
 			}],
 			"categories": ["CSS3"],
@@ -22994,10 +22994,10 @@ module.exports={
 			"spec": "http://www.w3.org/TR/file-writer-api/#the-blobbuilder-interface",
 			"status": "wd",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/DOM/BlobBuilder",
+				"url": "http://developer.mozilla.org/en/DOM/BlobBuilder",
 				"title": "MDN article on BlobBuilder"
 			}, {
-				"url": "https://developer.mozilla.org/en-US/docs/DOM/Blob",
+				"url": "http://developer.mozilla.org/en-US/docs/DOM/Blob",
 				"title": "MDN article on Blobs"
 			}],
 			"categories": ["JS API"],
@@ -23159,7 +23159,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/apis/file/FileReader",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://developer.mozilla.org/en/DOM/FileReader",
+				"url": "http://developer.mozilla.org/en/DOM/FileReader",
 				"title": "FileReader API"
 			}],
 			"categories": ["JS API"],
@@ -23480,7 +23480,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/FileAPI/#url",
 			"status": "wd",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/DOM/window.URL.createObjectURL",
+				"url": "http://developer.mozilla.org/en/DOM/window.URL.createObjectURL",
 				"title": "MDN article"
 			}],
 			"categories": ["JS API"],
@@ -23639,7 +23639,7 @@ module.exports={
 			"spec": "http://www.khronos.org/registry/typedarray/specs/latest/",
 			"status": "other",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/javascript_typed_arrays",
+				"url": "http://developer.mozilla.org/en/javascript_typed_arrays",
 				"title": "MDN article"
 			}],
 			"categories": ["JS API"],
@@ -23804,7 +23804,7 @@ module.exports={
 				"url": "http://www.html5rocks.com/en/tutorials/device/orientation/",
 				"title": "HTML5 Rocks tutorial"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-orientation",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/features.js#native-orientation",
 				"title": "has.js test"
 			}],
 			"categories": ["JS API"],
@@ -23950,7 +23950,7 @@ module.exports={
 					"10": "n"
 				}
 			},
-			"notes": "Partial support refers to the lack of compassneedscalibration event. Partial support also refers to the lack of devicemotion event support for Chrome 30- and Opera. Opera Mobile 14 lost the ondevicemotion event support. Firefox 3.6, 4 and 5 support the non-standard <a href=\"https://developer.mozilla.org/en/DOM/MozOrientation\">MozOrientation</a> event.",
+			"notes": "Partial support refers to the lack of compassneedscalibration event. Partial support also refers to the lack of devicemotion event support for Chrome 30- and Opera. Opera Mobile 14 lost the ondevicemotion event support. Firefox 3.6, 4 and 5 support the non-standard <a href=\"http://developer.mozilla.org/en/DOM/MozOrientation\">MozOrientation</a> event.",
 			"usage_perc_y": 0.14,
 			"usage_perc_a": 57.76,
 			"ucprefix": false,
@@ -23963,13 +23963,13 @@ module.exports={
 			"spec": "http://www.w3.org/TR/html5/the-script-element.html#attr-script-defer",
 			"status": "cr",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/HTML/Element/script#Attributes",
+				"url": "http://developer.mozilla.org/en/HTML/Element/script#Attributes",
 				"title": "MDN article"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/html/attributes/defer",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/script.js#script-defer",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/script.js#script-defer",
 				"title": "has.js test"
 			}],
 			"categories": ["DOM", "HTML5"],
@@ -24128,7 +24128,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/navigation-timing/",
 			"status": "cr",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/API/navigationTiming",
+				"url": "http://developer.mozilla.org/en/API/navigationTiming",
 				"title": "MDN article"
 			}, {
 				"url": "http://www.html5rocks.com/en/tutorials/webperformance/basics/",
@@ -24299,10 +24299,10 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/apis/webaudio",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://github.com/corbanbrook/audionode.js",
+				"url": "http://github.com/corbanbrook/audionode.js",
 				"title": "Polyfill to support Web Audio API in Firefox"
 			}, {
-				"url": "https://github.com/g200kg/WAAPISim",
+				"url": "http://github.com/g200kg/WAAPISim",
 				"title": "Polyfill to enable Web Audio API through Firefox Audio Data api or flash"
 			}],
 			"categories": ["JS API"],
@@ -24626,7 +24626,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/fullscreen/",
 			"status": "wd",
 			"links": [{
-				"url": "https://developer.mozilla.org/en/DOM/Using_full-screen_mode",
+				"url": "http://developer.mozilla.org/en/DOM/Using_full-screen_mode",
 				"title": "MDN article"
 			}, {
 				"url": "http://jlongster.com/2011/11/21/canvas.html",
@@ -24959,7 +24959,7 @@ module.exports={
 			"spec": "http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#range-state-(type=range)",
 			"status": "wd",
 			"links": [{
-				"url": "https://github.com/fryn/html5slider",
+				"url": "http://github.com/fryn/html5slider",
 				"title": "Polyfill for Firefox"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/html/elements/input/type/range",
@@ -24968,10 +24968,10 @@ module.exports={
 				"url": "http://tutorialzine.com/2011/12/what-you-need-to-know-html5-range-input/",
 				"title": "Tutorial"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/form.js#input-type-range",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/form.js#input-type-range",
 				"title": "has.js test"
 			}, {
-				"url": "https://github.com/freqdec/fd-slider",
+				"url": "http://github.com/freqdec/fd-slider",
 				"title": "Cross-browser polyfill"
 			}],
 			"categories": ["HTML5"],
@@ -25133,13 +25133,13 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/css/media_queries/apis/matchMedia",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://github.com/paulirish/matchMedia.js/",
+				"url": "http://github.com/paulirish/matchMedia.js/",
 				"title": "matchMedia.js polyfill"
 			}, {
-				"url": "https://developer.mozilla.org/en/DOM/window.matchMedia",
+				"url": "http://developer.mozilla.org/en/DOM/window.matchMedia",
 				"title": "MDN article"
 			}, {
-				"url": "https://developer.mozilla.org/en/CSS/Using_media_queries_from_code",
+				"url": "http://developer.mozilla.org/en/CSS/Using_media_queries_from_code",
 				"title": "MDN tutorial"
 			}],
 			"categories": ["JS API", "DOM"],
@@ -25304,10 +25304,10 @@ module.exports={
 				"url": "http://net.tutsplus.com/tutorials/javascript-ajax/quick-tip-cross-browser-datepickers-within-minutes/",
 				"title": "Datepicker tutorial w/polyfill"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/form.js#input-type-datetime;input-type-datetime-local",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/form.js#input-type-datetime;input-type-datetime-local",
 				"title": "has.js test"
 			}, {
-				"url": "https://github.com/zoltan-dulac/html5Forms.js",
+				"url": "http://github.com/zoltan-dulac/html5Forms.js",
 				"title": "Polyfill for HTML5 forms"
 			}],
 			"categories": ["HTML5"],
@@ -25472,7 +25472,7 @@ module.exports={
 				"url": "http://www.html5tutorial.info/html5-color.php",
 				"title": "Tutorial"
 			}, {
-				"url": "https://github.com/jonstipe/color-polyfill",
+				"url": "http://github.com/jonstipe/color-polyfill",
 				"title": "Polyfill"
 			}],
 			"categories": ["HTML5"],
@@ -25631,13 +25631,13 @@ module.exports={
 			"spec": "http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#number-state-(type=number)",
 			"status": "wd",
 			"links": [{
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/form.js#input-type-number",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/form.js#input-type-number",
 				"title": "has.js test"
 			}, {
 				"url": "http://www.html5tutorial.info/html5-number.php",
 				"title": "Tutorial"
 			}, {
-				"url": "https://github.com/jonstipe/number-polyfill",
+				"url": "http://github.com/jonstipe/number-polyfill",
 				"title": "Polyfill"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/html/elements/input/type/number",
@@ -25970,7 +25970,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/css/properties/counter-reset",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://developer.mozilla.org/en/CSS_Counters",
+				"url": "http://developer.mozilla.org/en/CSS_Counters",
 				"title": "MDN article"
 			}],
 			"categories": ["CSS2"],
@@ -26294,13 +26294,13 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/html/attributes/placeholder",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://raw.github.com/phiggins42/has.js/master/detect/form.js#input-attr-placeholder",
+				"url": "http://raw.github.com/phiggins42/has.js/master/detect/form.js#input-attr-placeholder",
 				"title": "has.js test"
 			}, {
 				"url": "http://www.zachleat.com/web/placeholder/",
 				"title": "Article on usage"
 			}, {
-				"url": "https://github.com/mathiasbynens/jquery-placeholder",
+				"url": "http://github.com/mathiasbynens/jquery-placeholder",
 				"title": "Polyfill"
 			}],
 			"categories": ["HTML5"],
@@ -26624,7 +26624,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/css/repeating-linear-gradient",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://developer.mozilla.org/en/CSS/repeating-linear-gradient",
+				"url": "http://developer.mozilla.org/en/CSS/repeating-linear-gradient",
 				"title": "MDN article"
 			}, {
 				"url": "http://www.css3files.com/gradient/#repeatinglineargradient",
@@ -26960,7 +26960,7 @@ module.exports={
 				"url": "http://snipplr.com/view/13523/",
 				"title": "Polyfill for IE"
 			}, {
-				"url": "https://developer.mozilla.org/en/DOM/window.getComputedStyle",
+				"url": "http://developer.mozilla.org/en/DOM/window.getComputedStyle",
 				"title": "MDN article"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/css/cssom/methods/getComputedStyle",
@@ -27125,7 +27125,7 @@ module.exports={
 				"url": "http://docs.webplatform.org/wiki/css/properties/word-break",
 				"title": "WebPlatform Docs"
 			}, {
-				"url": "https://developer.mozilla.org/en/CSS/word-break",
+				"url": "http://developer.mozilla.org/en/CSS/word-break",
 				"title": "MDN article"
 			}],
 			"categories": ["CSS3"],
@@ -27287,7 +27287,7 @@ module.exports={
 				"url": "http://css-tricks.com/viewport-sized-typography/",
 				"title": "Blog post"
 			}, {
-				"url": "https://github.com/saabi/vminpoly",
+				"url": "http://github.com/saabi/vminpoly",
 				"title": "Polyfill"
 			}],
 			"categories": ["CSS3"],
@@ -27608,7 +27608,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/page-visibility/",
 			"status": "cr",
 			"links": [{
-				"url": "https://developer.mozilla.org/en-US/docs/DOM/Using_the_Page_Visibility_API",
+				"url": "http://developer.mozilla.org/en-US/docs/DOM/Using_the_Page_Visibility_API",
 				"title": "MDN article"
 			}, {
 				"url": "http://docs.webplatform.org/wiki/apis/timing/properties/visibilityState",
@@ -27766,14 +27766,14 @@ module.exports={
 		},
 		"stricttransportsecurity": {
 			"title": "Strict Transport Security",
-			"description": "Declare that a website is only accessible over a secure connection (HTTPS).",
+			"description": "Declare that a website is only accessible over a secure connection (http).",
 			"spec": "http://tools.ietf.org/html/rfc6797",
 			"status": "other",
 			"links": [{
 				"url": "http://dev.chromium.org/sts",
 				"title": "Strict Transport Security @ Chromium"
 			}, {
-				"url": "https://developer.mozilla.org/en-US/docs/Security/HTTP_Strict_Transport_Security",
+				"url": "http://developer.mozilla.org/en-US/docs/Security/HTTP_Strict_Transport_Security",
 				"title": "Strict Transport Security @ Mozilla Developer Network"
 			}],
 			"categories": ["Other"],
@@ -27932,7 +27932,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/html5/document-metadata.html#attr-style-scoped",
 			"status": "cr",
 			"links": [{
-				"url": "https://github.com/PM5544/scoped-polyfill",
+				"url": "http://github.com/PM5544/scoped-polyfill",
 				"title": "Polyfill"
 			}, {
 				"url": "http://html5doctor.com/the-scoped-attribute/",
@@ -28256,7 +28256,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/CSS2/ui.html#propdef-outline",
 			"status": "rec",
 			"links": [{
-				"url": "https://developer.mozilla.org/en-US/docs/CSS/outline",
+				"url": "http://developer.mozilla.org/en-US/docs/CSS/outline",
 				"title": "Mozilla Developer Network: outline"
 			}, {
 				"url": "http://dev.w3.org/csswg/css3-ui/#outline",
@@ -28742,13 +28742,13 @@ module.exports={
 		"user-select-none": {
 			"title": "CSS user-select: none",
 			"description": "Method of preventing text/element selection using CSS. ",
-			"spec": "https://developer.mozilla.org/en-US/docs/CSS/user-select",
+			"spec": "http://developer.mozilla.org/en-US/docs/CSS/user-select",
 			"status": "unoff",
 			"links": [{
 				"url": "http://msdn.microsoft.com/en-us/library/ie/hh781492(v=vs.85).aspx",
 				"title": "MSDN Documentation"
 			}, {
-				"url": "https://developer.mozilla.org/en-US/docs/CSS/user-select",
+				"url": "http://developer.mozilla.org/en-US/docs/CSS/user-select",
 				"title": "MDN article"
 			}, {
 				"url": "http://css-tricks.com/almanac/properties/u/user-select/",
@@ -28907,13 +28907,13 @@ module.exports={
 		"webp": {
 			"title": "WebP image format",
 			"description": "Image format that supports lossy and lossless compression, as well as animation and alpha transparency.",
-			"spec": "https://developers.google.com/speed/webp/",
+			"spec": "http://developers.google.com/speed/webp/",
 			"status": "other",
 			"links": [{
 				"url": "http://libwebpjs.appspot.com/",
 				"title": "Decoder in JS"
 			}, {
-				"url": "https://developers.google.com/speed/webp/",
+				"url": "http://developers.google.com/speed/webp/",
 				"title": "Official website"
 			}, {
 				"url": "http://antimatter15.github.io/weppy/demo.html",
@@ -29399,7 +29399,7 @@ module.exports={
 			"spec": "http://tools.ietf.org/html/rfc6716",
 			"status": "other",
 			"links": [{
-				"url": "https://hacks.mozilla.org/2012/07/firefox-beta-15-supports-the-new-opus-audio-format/",
+				"url": "http://hacks.mozilla.org/2012/07/firefox-beta-15-supports-the-new-opus-audio-format/",
 				"title": "Introduction of Opus by Mozilla"
 			}, {
 				"url": "http://www.ietf.org/mail-archive/web/rtcweb/current/msg04953.html",
@@ -29879,7 +29879,7 @@ module.exports={
 			"spec": "http://www.w3.org/TR/css3-text/#tab-size1",
 			"status": "wd",
 			"links": [{
-				"url": "https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size",
+				"url": "http://developer.mozilla.org/en-US/docs/Web/CSS/tab-size",
 				"title": "MDN article"
 			}],
 			"categories": ["CSS3"],
@@ -30038,10 +30038,10 @@ module.exports={
 			"spec": "http://www.w3.org/TR/dom/",
 			"status": "wd",
 			"links": [{
-				"url": "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver",
+				"url": "http://developer.mozilla.org/en-US/docs/Web/API/MutationObserver",
 				"title": "MutationObserver from MDN"
 			}, {
-				"url": "https://github.com/Polymer/MutationObservers",
+				"url": "http://github.com/Polymer/MutationObservers",
 				"title": "Polyfill"
 			}],
 			"categories": ["DOM", "JS API"],
@@ -30197,7 +30197,7 @@ module.exports={
 		"css-selection": {
 			"title": "::selection CSS pseudo-element",
 			"description": "The ::selection CSS pseudo-element applies rules to the portion of a document that has been highlighted (e.g., selected with the mouse or another pointing device) by the user.",
-			"spec": "https://developer.mozilla.org/en-US/docs/Web/CSS/::selection",
+			"spec": "http://developer.mozilla.org/en-US/docs/Web/CSS/::selection",
 			"status": "unoff",
 			"links": [{
 				"url": "http://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::selection",
@@ -30524,7 +30524,7 @@ module.exports={
 				"url": "http://www.deluxeblogtips.com/2010/06/javascript-copy-to-clipboard.html",
 				"title": "Blog post on cross-browser usage"
 			}, {
-				"url": "https://developer.mozilla.org/en-US/docs/Web/API/ClipboardEvent",
+				"url": "http://developer.mozilla.org/en-US/docs/Web/API/ClipboardEvent",
 				"title": "MDN page on ClipboardEvent"
 			}],
 			"categories": ["JS API"],
@@ -34031,7 +34031,7 @@ define(function(require, exports, module) {
  * "Lorem ipsum" text generator. Matches <code>lipsum(num)?</code> or 
  * <code>lorem(num)?</code> abbreviation.
  * This code is based on Django's contribution: 
- * https://code.djangoproject.com/browser/django/trunk/django/contrib/webdesign/lorem_ipsum.py
+ * http://code.djangoproject.com/browser/django/trunk/django/contrib/webdesign/lorem_ipsum.py
  * <br><br>
  * Examples to test:<br>
  * <code>lipsum</code> – generates 30 words text.<br>
@@ -35900,7 +35900,7 @@ define(function(require, exports, module) {
 		text with <code>&lt;a&gt;</code> tag. With this option enabled,\
 		if wrapped text matches URL or e-mail pattern it will be automatically\
 		inserted into <code>href</code> attribute.');
-	prefs.define('href.urlPattern', '^(?:(?:https?|ftp|file)://|www\\.|ftp\\.)(?:\\([-A-Z0-9+&@#/%=~_|$?!:,.]*\\)|[-A-Z0-9+&@#/%=~_|$?!:,.])*(?:\\([-A-Z0-9+&@#/%=~_|$?!:,.]*\\)|[A-Z0-9+&@#/%=~_|$])', 
+	prefs.define('href.urlPattern', '^(?:(?:http?|ftp|file)://|www\\.|ftp\\.)(?:\\([-A-Z0-9+&@#/%=~_|$?!:,.]*\\)|[-A-Z0-9+&@#/%=~_|$?!:,.])*(?:\\([-A-Z0-9+&@#/%=~_|$?!:,.]*\\)|[A-Z0-9+&@#/%=~_|$])', 
 		'RegExp pattern to match wrapped URLs. Matched content will be inserts\
 		as-is into <code>href</code> attribute, only whitespace will be trimmed.');
 
@@ -36644,7 +36644,7 @@ define(function(require, exports, module) {
 	}
 
 	function isURL(path) {
-		var re = /^https?:\/\//;
+		var re = /^http?:\/\//;
 		return re.test(path);
 	}
 
@@ -36667,7 +36667,7 @@ define(function(require, exports, module) {
 
 		_read: function(params, callback) {
 			if (isURL(params.path)) {
-				var req = require(/^https:/.test(params.path) ? 'https' : 'http').get(params.path, function(res) {
+				var req = require(/^http:/.test(params.path) ? 'http' : 'http').get(params.path, function(res) {
 					var bufs = [];
 					var totalLength = 0;
 					var finished = false;
@@ -38015,7 +38015,7 @@ define(function(require, exports, module) {
 	 * in CSS rule. In other words, it checks if it’s safe to 
 	 * expand gradients for current caret position or not.
 	 * 
-	 * See issue https://github.com/sergeche/emmet-sublime/issues/411
+	 * See issue http://github.com/sergeche/emmet-sublime/issues/411
 	 * 
 	 * @param  {Array} gradients List of parsed gradients
 	 * @param  {Number} caretPos  Current caret position
@@ -41683,7 +41683,7 @@ if (typeof module === 'object' && typeof define !== 'function') {
 
 define(function(require, exports, module) {
 	/*
-	 Source: https://github.com/silentmatt/js-expression-eval
+	 Source: http://github.com/silentmatt/js-expression-eval
 
 	 Based on ndef.parser, by Raphael Graf(r@undefined.ch)
 	 http://www.undefined.ch/mparser/index.html
@@ -42777,10 +42777,10 @@ define(function(require, exports, module) {
  * string_score.js: String Scoring Algorithm 0.1.10 
  *
  * http://joshaven.com/string_score
- * https://github.com/joshaven/string_score
+ * http://github.com/joshaven/string_score
  *
  * Copyright (C) 2009-2011 Joshaven Potter <yourtech@gmail.com>
- * Special thanks to all of the contributors listed here https://github.com/joshaven/string_score
+ * Special thanks to all of the contributors listed here http://github.com/joshaven/string_score
  * MIT license: http://www.opensource.org/licenses/mit-license.php
  *
  * Date: Tue Mar 1 2011

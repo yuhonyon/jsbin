@@ -1,9 +1,9 @@
 /*
 Gherkin mode - http://www.cukes.info/
-Report bugs/issues here: https://github.com/marijnh/CodeMirror/issues
+Report bugs/issues here: http://github.com/marijnh/CodeMirror/issues
 */
 
-// Following Objs from Brackets implementation: https://github.com/tregusti/brackets-gherkin/blob/master/main.js
+// Following Objs from Brackets implementation: http://github.com/tregusti/brackets-gherkin/blob/master/main.js
 //var Quotes = {
 //  SINGLE: 1,
 //  DOUBLE: 2

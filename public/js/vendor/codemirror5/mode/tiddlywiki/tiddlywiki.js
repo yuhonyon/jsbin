@@ -7,7 +7,7 @@
     |''Author''|PMario|
     |''Version''|0.1.7|
     |''Status''|''stable''|
-    |''Source''|[[GitHub|https://github.com/pmario/CodeMirror2/blob/tw-syntax/mode/tiddlywiki]]|
+    |''Source''|[[GitHub|http://github.com/pmario/CodeMirror2/blob/tw-syntax/mode/tiddlywiki]]|
     |''Documentation''|http://codemirror.tiddlyspace.com/|
     |''License''|[[MIT License|http://www.opensource.org/licenses/mit-license.php]]|
     |''CoreVersion''|2.5.0|

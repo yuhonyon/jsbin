@@ -4,12 +4,12 @@
     <div class="buttons">
       {{#if embed}}
         <span class="menu">
-          <a target="_blank" href="{{code_id_path}}/edit" class="brand button group"><img src="{{static}}/images/favicon.svg" alt="">
-            <h1>JS Bin</h1></a><a href="{{root}}/clone" target="_blank" class="button">Save</a>
+          <a target="_blank" href="{{code_id_path}}/edit" class="brand button group"><img src="{{static}}/images/favicon.svg" style="width:16px;" alt="">
+            <h1>JS Code</h1></a><a href="{{root}}/clone" target="_blank" class="button">Save</a>
         </span>
       {{else}}
         <div class="menu">
-          <a href="{{root}}{{code_id_path}}/edit#file" target="_blank" class="brand button button-dropdown group button-dropdown-arrow"><img src="{{static}}/images/favicon.svg"> File</a>
+          <a href="{{root}}{{code_id_path}}/edit#file" target="_blank" class="brand button button-dropdown group button-dropdown-arrow"><img style="width:16px;" src="{{static}}/images/favicon.svg"> File</a>
           <div class="dropdown" id="file">
             <div class="dropdownmenu">
               <a id="createnew" data-desc="Create a brand new bin" class="button group" title="Create fresh bin" href="{{root}}" data-label="new">New</a>
@@ -82,7 +82,7 @@
                   <label for="output-view"><input id="output-view" type="radio" name="view" value="output"> Output only<span class="codecasting"><br><small>with live reload</small></span></label>
                 </div>
                 <div class="result">
-                  <div data-desc="This bin's full output without the JS Bin editor">
+                  <div data-desc="This bin's full output without the JS Code editor">
                     <strong><a class="link" data-path="/" target="_blank" href="{{root}}{{code_id_path}}">Link</a></strong><br>
                     <input name="url" class="link" value="{{root}}{{code_id_path}}/edit" type="text">
                   </div>
@@ -90,9 +90,9 @@
                     <span class="direct-links"></span>
                   </div>
                   <div data-desc="Embed this bin with the live output on your site">
-                    <span class="heading">Embed</span><br><textarea id="embedfield" name="embed" data-path="/embed" class="link">&lt;a class=&quot;jsbin-embed&quot; href=&quot;{{root}}{{code_id_path}}/embed?live&quot;&gt;JS Bin demo&lt;/a&gt;&lt;script src=&quot;{{static}}/js/embed.js&quot;&gt;&lt;/script&gt;</textarea>
+                    <span class="heading">Embed</span><br><textarea id="embedfield" name="embed" data-path="/embed" class="link">&lt;a class=&quot;jsbin-embed&quot; href=&quot;{{root}}{{code_id_path}}/embed?live&quot;&gt;JS Code demo&lt;/a&gt;&lt;script src=&quot;{{static}}/js/embed.js&quot;&gt;&lt;/script&gt;</textarea>
                   </div>
-                  <div data-desc="The preview of JS Bin when you share your bin">
+                  <div data-desc="The preview of JS Code when you share your bin">
                     <span class="heading">What they'll see</span><br>
                     <div id="share-preview">
                       <div class="output"></div>
@@ -113,7 +113,7 @@
                   </div>
                 </div>
                 {{else}}
-                <div data-desc="This bin's full output without the JS Bin editor" class="ui-full-output">
+                <div data-desc="This bin's full output without the JS Code editor" class="ui-full-output">
                   <strong><a class="link" data-path="/" target="_blank" href="{{root}}{{code_id_path}}">Output only (with live reload)</a></strong><br><input data-path="/" class="link" id="livepreview" value="{{root}}{{code_id_path}}/" type="text">
                 </div>
                 <hr>
@@ -127,11 +127,11 @@
                     <li><label><input type="checkbox" data-panel="live">Output</label></li>
                   </ul>
                 </div>
-                <div data-desc="The url to this bin with the JS Bin editor" class="ui-binurl">
+                <div data-desc="The url to this bin with the JS Code editor" class="ui-binurl">
                   <a class="link heading" data-path="/edit" target="_blank" href="{{root}}{{code_id_path}}/edit">Link</a><br><input data-path="/edit" class="link" value="{{root}}{{code_id_path}}/edit" type="text">
                 </div>
                 <div data-desc="Embed this bin with the live output on your site" class="ui-embed">
-                  <span class="heading">Embed</span><br><textarea id="embedfield" data-path="/embed" class="link">&lt;a class=&quot;jsbin-embed&quot; href=&quot;{{root}}{{code_id_path}}/embed?live&quot;&gt;JS Bin demo&lt;/a&gt;&lt;script src=&quot;{{static}}/js/embed.js&quot;&gt;&lt;/script&gt;</textarea>
+                  <span class="heading">Embed</span><br><textarea id="embedfield" data-path="/embed" class="link">&lt;a class=&quot;jsbin-embed&quot; href=&quot;{{root}}{{code_id_path}}/embed?live&quot;&gt;JS Code demo&lt;/a&gt;&lt;script src=&quot;{{static}}/js/embed.js&quot;&gt;&lt;/script&gt;</textarea>
                 </div>
                 <div data-desc="Training/Viewer mode: codecast your bin to any viewers" class="disabled ui-codecast">
                   <a class="link heading" target="_blank" data-path="/watch" href="{{root}}{{code_id_path}}/watch">Codecast</a><br><input data-path="/watch" class="link" value="{{root}}{{code_id_path}}/watch" type="text">
@@ -250,34 +250,14 @@
           {{/feature}}
         {{/unless}}
 
-        {{#if settings.[ui showblog]}}
-        <div class="menu blog">
-          <a href="http://jsbin.com/blog" class="button">Blog</a>
-        </div>
-        {{/if}}
+
         <div class="menu">
           <a href="#help" class="button button-dropdown">Help</a>
           <div class="dropdown dd-right" id="help">
             <div class="dropdownmenu">
               <a data-shortcut="ctrl+shift+?" data-desc="Discover poweruser keyboard shortcuts" id="showhelp" href="#keyboardHelp">Keyboard shortcuts</a>
-              <a data-desc="Shortcut & direct access JS Bin URLs" id="showurls" href="#urls">JS Bin URLs</a>
-              <hr data-desc="">
-              {{#if settings.[ui inlinehelp]}}
-              <input placeholder="Search help..." class="button" id="helpsearch"><span id="result-count"></span><span id="results"></span>
-              <a id="menu-all-help" data-desc="Learn about JS Bin features & tricks" target="_blank" href="http://jsbin.com/help">All help topics</a>
-              {{else}}
-              <a id="menu-help-tips" data-desc="Learn about JS Bin features & tricks" target="_blank" href="http://jsbin.com/help">Help topics</a>
-              {{/if}}
-              <hr data-desc="">
-              {{#feature request "pro"}}
-              <a id="menu-pro-support" data-desc="Email support" href="mailto:support@jsbin.com?subject=Pro%20user%20support%20request">Pro user email support</a>
-              {{/feature}}
-              <a id="menu-feedback" data-desc="Help make JS Bin better" id="newissue" target="_blank" href="http://github.com/jsbin/jsbin/issues/">Send feedback &amp; file bugs</a>
-              <a id="menu-fork" data-desc="Help make JS Bin better" target="_blank" href="https://gratipay.com/jsbin/">Donate on Gratipay</a>
-              <a id="menu-follow-jsbin" data-desc="Find out the latest news & info" target="_blank" href="http://twitter.com/js_bin">Follow @js_bin</a>
-              {{#feature request "!pro"}}
-              <a class="" data-pro="true" id="menu-pro" data-desc="Upgrade" href="/upgrade">Support JS Bin: upgrade now</a>
-              {{/feature}}
+              <a data-desc="Shortcut & direct access JS Code URLs" id="showurls" href="#urls">JS Code URLs</a>
+
             </div>
           </div>
         </div>

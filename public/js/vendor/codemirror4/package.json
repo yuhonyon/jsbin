@@ -16,5 +16,5 @@
                     "email": "marijnh@gmail.com",
                     "web": "http://marijnhaverbeke.nl"}],
     "repository": {"type": "git",
-                   "url": "https://github.com/codemirror/CodeMirror.git"}
+                   "url": "http://github.com/codemirror/CodeMirror.git"}
 }

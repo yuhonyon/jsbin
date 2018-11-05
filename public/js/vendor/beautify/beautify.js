@@ -97,7 +97,7 @@
       // Git repositories for Acorn are available at
       //
       //     http://marijnhaverbeke.nl/git/acorn
-      //     https://github.com/marijnh/acorn.git
+      //     http://github.com/marijnh/acorn.git
 
       // ## Character categories
 
@@ -1780,7 +1780,7 @@
 
 
                 // Spidermonkey-specific sharp variables for circular references
-                // https://developer.mozilla.org/En/Sharp_variables_in_JavaScript
+                // http://developer.mozilla.org/En/Sharp_variables_in_JavaScript
                 // http://mxr.mozilla.org/mozilla-central/source/js/src/jsscan.cpp around line 1935
                 var sharp = '#';
                 if (parser_pos < input_length && digit.test(input.charAt(parser_pos))) {
@@ -1913,7 +1913,7 @@
 
 
     if (typeof define === "function" && define.amd) {
-        // Add support for AMD ( https://github.com/amdjs/amdjs-api/wiki/AMD#defineamd-property- )
+        // Add support for AMD ( http://github.com/amdjs/amdjs-api/wiki/AMD#defineamd-property- )
         define([], function() {
             return { js_beautify: js_beautify };
         });

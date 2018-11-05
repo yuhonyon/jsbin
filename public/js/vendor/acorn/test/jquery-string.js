@@ -1384,7 +1384,7 @@ jQuery.support = (function() {\n\
 	// We only care about the case where non-standard event systems\n\
 	// are used, namely in IE. Short-circuiting here helps us to\n\
 	// avoid an eval call (in setAttribute) which can cause CSP\n\
-	// to go haywire. See: https://developer.mozilla.org/en/Security/CSP\n\
+	// to go haywire. See: http://developer.mozilla.org/en/Security/CSP\n\
 	if ( div.attachEvent ) {\n\
 		for( i in {\n\
 			submit: 1,\n\
@@ -5416,7 +5416,7 @@ jQuery.each({\n\
 	jQuery.fn[ name ] = function( until, selector ) {\n\
 		var ret = jQuery.map( this, fn, until ),\n\
 			// The variable 'args' was introduced in\n\
-			// https://github.com/jquery/jquery/commit/52a0238\n\
+			// http://github.com/jquery/jquery/commit/52a0238\n\
 			// to work around a bug in Chrome 10 (Dev) and should be removed when the bug is fixed.\n\
 			// http://code.google.com/p/v8/issues/detail?id=1050\n\
 			args = slice.call(arguments);\n\

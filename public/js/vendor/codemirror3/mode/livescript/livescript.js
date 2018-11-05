@@ -1,6 +1,6 @@
 /**
  * Link to the project's GitHub page:
- * https://github.com/duralog/CodeMirror
+ * http://github.com/duralog/CodeMirror
  */
 (function() {
   CodeMirror.defineMode('livescript', function(){

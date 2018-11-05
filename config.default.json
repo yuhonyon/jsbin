@@ -2,23 +2,24 @@
   "env": "development",
   "timezone": "UTC",
   "url": {
-    "host": "localhost:3000",
+    "host": "127.0.0.1:3300",
     "prefix": "/",
     "ssl": false,
     "static": false,
     "runner": false
   },
-  "max-request-size": "1MB",
+  "max-request-size": "5MB",
   "max-age": 86400,
   "store": {
-    "adapter": "sqlite",
+    "adapter": "mysql",
     "sqlite": {
       "location": "jsbin.sqlite"
     },
     "mysql": {
-      "host": "localhost",
-      "user": "root",
-      "password": "",
+      "host": "97.64.36.18",
+      "port":"3306",
+      "user": "yuhonyon",
+      "password": "123456",
       "database": "jsbin",
       "charset": "utf8mb4",
       "collate": "utf8mb4_unicode_ci"

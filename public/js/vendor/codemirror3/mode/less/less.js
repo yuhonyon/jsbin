@@ -1,7 +1,7 @@
 /*
   LESS mode - http://www.lesscss.org/
   Ported to CodeMirror by Peter Kroon <plakroon@gmail.com>
-  Report bugs/issues here: https://github.com/marijnh/CodeMirror/issues
+  Report bugs/issues here: http://github.com/marijnh/CodeMirror/issues
   GitHub: @peterkroon
 */
 
@@ -123,7 +123,7 @@ CodeMirror.defineMode("less", function(config) {
         if(state.stack[state.stack.length-1] === "{" && stream.peek() === ":")return ret("variable", "variable");
         if(stream.peek() === "/")stream.eatWhile(/[\w\\\-_%.{:\/]/);
         return ret(type, stream.current());
-      } else if(stream.current().match(/(^http$|^https$)/) != null){
+      } else if(stream.current().match(/(^http$|^http$)/) != null){
         stream.eatWhile(/[\w\\\-_%.{:\/]/);
         if(stream.peek() === "/")stream.eatWhile(/[\w\\\-_%.{:\/]/);
         return ret("string", "string");

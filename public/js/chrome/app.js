@@ -23,7 +23,7 @@ if (!jsbin.mobile) document.body.onscroll = window.onscroll = function () {
 window.CodeMirror = CodeMirror; // fix to allow code mirror to break naturally
 
 // These are keys that CodeMirror (and Emmet) should never take over
-// ref: https://gist.github.com/rodneyrehm/5213304
+// ref: http://gist.github.com/rodneyrehm/5213304
 if (CodeMirror.keyMap && CodeMirror.keyMap['default']) {
   var cmd = $.browser.platform === 'mac' ? 'Cmd' : 'Ctrl';
   delete CodeMirror.keyMap['default'][cmd + '-L'];

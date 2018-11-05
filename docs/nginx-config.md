@@ -1,6 +1,6 @@
 # Running JS Bin behind nginx for SSL support
 
-Here's an example `nginx.conf` file for use when running JS Bin with HTTPS support.
+Here's an example `nginx.conf` file for use when running JS Bin with http support.
 
 The config also needs to be set:
 
@@ -74,7 +74,7 @@ http {
     # Redirect port 80 traffic to 443
     server {
         listen  80;
-        return  301 https://$host$request_uri;
+        return  301 http://$host$request_uri;
     }
 
     # Static server
@@ -138,7 +138,7 @@ http {
         }
     }
 
-    # HTTPS server
+    # http server
     server {
         listen      443;
         server_name jsbin.com;
@@ -169,8 +169,8 @@ http {
             proxy_buffering             off;
             proxy_cache                 off;
 
-            # Most web apps can be configured to read this header and understand that the current session is actually HTTPS.
-            proxy_set_header X-Forwarded-Proto https;
+            # Most web apps can be configured to read this header and understand that the current session is actually http.
+            proxy_set_header X-Forwarded-Proto http;
 
             # We expect the downsteam servers to redirect to the right hostname, so don't do any rewrites here.
             proxy_redirect     off;

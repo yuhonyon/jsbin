@@ -1,4 +1,4 @@
-// directly from @wookiehangover's amazing demo: https://github.com/wookiehangover/pandaco.de
+// directly from @wookiehangover's amazing demo: http://github.com/wookiehangover/pandaco.de
 var reader = new FileReader();
 
 var modified_cache;

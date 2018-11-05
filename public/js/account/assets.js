@@ -147,7 +147,7 @@
 
   function addImage(object) {
     var images = ['png', 'jpg', 'peg', 'gif'];
-    var url = 'https://jsbin-user-assets.s3.amazonaws.com/' + object.filename;
+    var url = 'http://jsbin-user-assets.s3.amazonaws.com/' + object.filename;
     var bg = url;
     var ext = url.slice(-3);
     var key = object.filename.replace(/^(.*\/)?/, '');

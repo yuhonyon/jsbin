@@ -728,17 +728,17 @@
       },
       "push": {
         "!type": "Array.prototype.push",
-        "!url": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/push",
+        "!url": "http://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/push",
         "!doc": "Mutates an array by appending the given elements and returning the new length of the array."
       },
       "sort": {
         "!type": "Array.prototype.sort",
-        "!url": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/sort",
+        "!url": "http://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/sort",
         "!doc": "Sorts the elements of an array in place and returns the array."
       },
       "splice": {
         "!type": "Array.prototype.splice",
-        "!url": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/splice",
+        "!url": "http://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/splice",
         "!doc": "Changes the content of an array, adding new elements while removing old elements."
       }
     },

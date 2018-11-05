@@ -1397,7 +1397,7 @@ body.streaming #bin {
 .dropdowncontent {
   /*background: #e0e0e0;*/
   padding: 10px;
-  min-width: 250px;
+  min-width: 100px;
 }
 
 #register p {

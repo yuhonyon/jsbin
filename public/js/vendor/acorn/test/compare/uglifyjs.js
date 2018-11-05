@@ -436,7 +436,7 @@ function tokenizer($TEXT) {
                                 var ch = next(true);
                                 if (ch == "\\") {
                                         // read OctalEscapeSequence (XXX: deprecated if "strict mode")
-                                        // https://github.com/mishoo/UglifyJS/issues/178
+                                        // http://github.com/mishoo/UglifyJS/issues/178
                                         var octal_len = 0, first = null;
                                         ch = read_while(function(ch){
                                                 if (ch >= "0" && ch <= "7") {
@@ -481,7 +481,7 @@ function tokenizer($TEXT) {
                         S.line += text.split("\n").length - 1;
                         S.newline_before = S.newline_before || text.indexOf("\n") >= 0;
 
-                        // https://github.com/mishoo/UglifyJS/issues/#issue/100
+                        // http://github.com/mishoo/UglifyJS/issues/#issue/100
                         if (/^@cc_on/i.test(text)) {
                                 warn("WARNING: at line " + S.line);
                                 warn("*** Found \"conditional comment\": " + text);

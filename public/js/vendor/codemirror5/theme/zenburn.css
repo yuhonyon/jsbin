@@ -1,11 +1,11 @@
 /**
  * "
  *  Using Zenburn color palette from the Emacs Zenburn Theme
- *  https://github.com/bbatsov/zenburn-emacs/blob/master/zenburn-theme.el
+ *  http://github.com/bbatsov/zenburn-emacs/blob/master/zenburn-theme.el
  *
- *  Also using parts of https://github.com/xavi/coderay-lighttable-theme
+ *  Also using parts of http://github.com/xavi/coderay-lighttable-theme
  * "
- * From: https://github.com/wisenomad/zenburn-lighttable-theme/blob/master/zenburn.css
+ * From: http://github.com/wisenomad/zenburn-lighttable-theme/blob/master/zenburn.css
  */
 
 .cm-s-zenburn .CodeMirror-gutters { background: #3f3f3f !important; }

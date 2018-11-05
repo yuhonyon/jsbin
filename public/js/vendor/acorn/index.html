@@ -7,10 +7,10 @@ taken from <a href="http://esprima.org">Esprima</a> by Ariya Hidayat.</p>
 <p>Git repositories for Acorn are available at</p>
 
 <pre><code>http://marijnhaverbeke.nl/git/acorn
-https://github.com/marijnh/acorn.git
+http://github.com/marijnh/acorn.git
 </code></pre>
 
-<p>Please use the <a href="https://github.com/marijnh/acorn/issues">github bug tracker</a> to report issues.</p>
+<p>Please use the <a href="http://github.com/marijnh/acorn/issues">github bug tracker</a> to report issues.</p>
 
 <p>This file defines the main parser interface. The library also comes
 with a <a href="acorn_loose.js">error-tolerant parser</a> and an
@@ -23,7 +23,7 @@ with a <a href="acorn_loose.js">error-tolerant parser</a> and an
 
   <span class="nx">exports</span><span class="p">.</span><span class="nx">version</span> <span class="o">=</span> <span class="s2">&quot;0.4.1&quot;</span><span class="p">;</span></pre></div>             </td>           </tr>                               <tr id="section-2">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-2">&#182;</a>               </div>               <p>The main exported interface (under <code>self.acorn</code> when in the
 browser) is a <code>parse</code> function that takes a code string and
-returns an abstract syntax tree as specified by <a href="https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API">Mozilla parser
+returns an abstract syntax tree as specified by <a href="http://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API">Mozilla parser
 API</a>, with the caveat that the SpiderMonkey-specific syntax
 (<code>let</code>, <code>yield</code>, inline XML, etc) is not recognized.</p>             </td>             <td class="code">               <div class="highlight"><pre>  <span class="kd">var</span> <span class="nx">options</span><span class="p">,</span> <span class="nx">input</span><span class="p">,</span> <span class="nx">inputLen</span><span class="p">,</span> <span class="nx">sourceFile</span><span class="p">;</span>
 
@@ -57,7 +57,7 @@ end of the comments. Note that you are not allowed to call the
 parser from the callback—that will corrupt its internal state.</p>             </td>             <td class="code">               <div class="highlight"><pre>    <span class="nx">onComment</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span></pre></div>             </td>           </tr>                               <tr id="section-11">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-11">&#182;</a>               </div>               <p>Nodes have their start and end characters offsets recorded in
 <code>start</code> and <code>end</code> properties (directly on the node, rather than
 the <code>loc</code> object, which holds line/column data. To also add a
-<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=745678">semi-standardized</a> <code>range</code> property holding a <code>[start,
+<a href="http://bugzilla.mozilla.org/show_bug.cgi?id=745678">semi-standardized</a> <code>range</code> property holding a <code>[start,
 end]</code> array with the same numbers, set the <code>ranges</code> option to
 <code>true</code>.</p>             </td>             <td class="code">               <div class="highlight"><pre>    <span class="nx">ranges</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span></pre></div>             </td>           </tr>                               <tr id="section-12">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-12">&#182;</a>               </div>               <p>It is possible to parse multiple files into a single AST by
 passing the tree produced by parsing the first file as

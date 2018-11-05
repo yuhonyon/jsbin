@@ -18,7 +18,7 @@ var Gist = (function () { // jshint ignore:line
     if (jsbin.user && jsbin.user.github_token) { // jshint ignore:line
       token = '?access_token=' + jsbin.user.github_token; // jshint ignore:line
     }
-    $.get('https://api.github.com/gists/' + id + token, function (data) {
+    $.get('http://api.github.com/gists/' + id + token, function (data) {
       if (!data) {return;}
       $.each(data.files, function (fileName, fileData) {
         var ext = fileName.split('.').slice(-1).join('');
@@ -109,7 +109,7 @@ var Gist = (function () { // jshint ignore:line
 
       $.ajax({
         type: 'POST',
-        url: 'https://api.github.com/gists' + token,
+        url: 'http://api.github.com/gists' + token,
         data: JSON.stringify(gist),
         dataType: 'json',
         crossDomain: true,

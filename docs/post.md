@@ -19,7 +19,7 @@ This move to Node allows us to introduce two new super cool features:
 1. CodeCasting
 2. Live remote rendering
 
-Both these techniques use EventSource and a little technique that I called [The Spike](https://github.com/jsbin/jsbin/blob/feature/node/public/js/spike.js).
+Both these techniques use EventSource and a little technique that I called [The Spike](http://github.com/jsbin/jsbin/blob/feature/node/public/js/spike.js).
 
 The big key difference between old JS Bin and new JS Bin is that *as you type - JS Bin is saving*. So as soon as your first key stroke lands, you've got your own URL. You keep typing: it keeps saving. If you want to stop saving against that version, just create a milestone, and live saving will be applied to the new revision.
 
@@ -60,7 +60,7 @@ Some of these features were always part of JS Bin, but hidden inside of the "bet
 - An API to control default settings (useful if you're preparing a teaching session)
 - Processors, so you can use Markdown, CoffeeScript and LESS, amongst others
 - CSS panel (after much demand!)
-- Console panel (after [@rwaldron's mockup](https://twitter.com/rwaldron/status/179568063660826624) he sent me via Twitter)
+- Console panel (after [@rwaldron's mockup](http://twitter.com/rwaldron/status/179568063660826624) he sent me via Twitter)
 - A load more libraries supported (including Bootstrap, Backbone, etc)
 - Native support in [Adobe Shadow](http://labs.adobe.com/technologies/shadow/) (that's right, point your browser to JS Bin and Adobe Shadow will render the live output automatically)
 -

@@ -3,7 +3,7 @@
 
 /**
  * Link to the project's GitHub page:
- * https://github.com/pickhardt/coffeescript-codemirror-mode
+ * http://github.com/pickhardt/coffeescript-codemirror-mode
  */
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS

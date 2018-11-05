@@ -3,8 +3,8 @@
     Name:       3024 day
     Author:     Jan T. Sott (http://github.com/idleberg)
 
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    CodeMirror template by Jan T. Sott (http://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (http://github.com/chriskempson/base16)
 
 */
 
@@ -44,8 +44,8 @@
     Name:       3024 night
     Author:     Jan T. Sott (http://github.com/idleberg)
 
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    CodeMirror template by Jan T. Sott (http://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (http://github.com/chriskempson/base16)
 
 */
 
@@ -194,8 +194,8 @@
     Name:       Base16 Default Dark
     Author:     Chris Kempson (http://chriskempson.com)
 
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    CodeMirror template by Jan T. Sott (http://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (http://github.com/chriskempson/base16)
 
 */
 
@@ -232,8 +232,8 @@
     Name:       Base16 Default Light
     Author:     Chris Kempson (http://chriskempson.com)
 
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    CodeMirror template by Jan T. Sott (http://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (http://github.com/chriskempson/base16)
 
 */
 
@@ -270,8 +270,8 @@
     Name:       Bespin
     Author:     Mozilla / Jan T. Sott
 
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    CodeMirror template by Jan T. Sott (http://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (http://github.com/chriskempson/base16)
 
 */
 
@@ -394,7 +394,7 @@
     Name:       dracula
     Author:     Michael Kaminsky (http://github.com/mkaminsky11)
 
-    Original dracula color scheme by Zeno Rocha (https://github.com/zenorocha/dracula-theme)
+    Original dracula color scheme by Zeno Rocha (http://github.com/zenorocha/dracula-theme)
 
 */
 
@@ -505,8 +505,8 @@
     Name:       Hopscotch
     Author:     Jan T. Sott
 
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    CodeMirror template by Jan T. Sott (http://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (http://github.com/chriskempson/base16)
 
 */
 
@@ -535,7 +535,7 @@
 .cm-s-hopscotch .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
 .cm-s-hopscotch .CodeMirror-activeline-background { background: #302020; }
 /*
-ICEcoder default theme by Matt Pass, used in code editor available at https://icecoder.net
+ICEcoder default theme by Matt Pass, used in code editor available at http://icecoder.net
 */
 
 .cm-s-icecoder { color: #666; background: #1d1d1b; }
@@ -582,8 +582,8 @@ ICEcoder default theme by Matt Pass, used in code editor available at https://ic
     Name:       Isotope
     Author:     David Desandro / Jan T. Sott
 
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    CodeMirror template by Jan T. Sott (http://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (http://github.com/chriskempson/base16)
 
 */
 
@@ -758,7 +758,7 @@ Ported to CodeMirror by Peter Kroon
     Name:       material
     Author:     Michael Kaminsky (http://github.com/mkaminsky11)
 
-    Original material color scheme by Mattia Astorino (https://github.com/equinusocio/material-theme)
+    Original material color scheme by Mattia Astorino (http://github.com/equinusocio/material-theme)
 
 */
 
@@ -808,7 +808,7 @@ Ported to CodeMirror by Peter Kroon
 }
 /****************************************************************/
 /*   Based on mbonaci's Brackets mbo theme                      */
-/*   https://github.com/mbonaci/global/blob/master/Mbo.tmTheme  */
+/*   http://github.com/mbonaci/global/blob/master/Mbo.tmTheme  */
 /*   Create your own: http://tmtheme-editor.herokuapp.com       */
 /****************************************************************/
 
@@ -846,10 +846,10 @@ Ported to CodeMirror by Peter Kroon
 /*
   MDN-LIKE Theme - Mozilla
   Ported to CodeMirror by Peter Kroon <plakroon@gmail.com>
-  Report bugs/issues here: https://github.com/codemirror/CodeMirror/issues
+  Report bugs/issues here: http://github.com/codemirror/CodeMirror/issues
   GitHub: @peterkroon
 
-  The mdn-like theme is inspired on the displayed code examples at: https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+  The mdn-like theme is inspired on the displayed code examples at: http://developer.mozilla.org/en-US/docs/Web/CSS/animation
 
 */
 .cm-s-mdn-like.CodeMirror { color: #999; background-color: #fff; }
@@ -1057,7 +1057,7 @@ div.cm-s-mdn-like span.CodeMirror-matchingbracket { outline:1px solid grey; colo
 	Name:       Panda Syntax
 	Author:     Siamak Mokhtari (http://github.com/siamak/)
 
-	CodeMirror template by Siamak Mokhtari (https://github.com/siamak/atom-panda-syntax)
+	CodeMirror template by Siamak Mokhtari (http://github.com/siamak/atom-panda-syntax)
 
 */
 .cm-s-panda-syntax {
@@ -1151,7 +1151,7 @@ div.cm-s-mdn-like span.CodeMirror-matchingbracket { outline:1px solid grey; colo
     Name:       Paraíso (Dark)
     Author:     Jan T. Sott
 
-    Color scheme by Jan T. Sott (https://github.com/idleberg/Paraiso-CodeMirror)
+    Color scheme by Jan T. Sott (http://github.com/idleberg/Paraiso-CodeMirror)
     Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
 
 */
@@ -1189,7 +1189,7 @@ div.cm-s-mdn-like span.CodeMirror-matchingbracket { outline:1px solid grey; colo
     Name:       Paraíso (Light)
     Author:     Jan T. Sott
 
-    Color scheme by Jan T. Sott (https://github.com/idleberg/Paraiso-CodeMirror)
+    Color scheme by Jan T. Sott (http://github.com/idleberg/Paraiso-CodeMirror)
     Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
 
 */
@@ -1228,7 +1228,7 @@ div.cm-s-mdn-like span.CodeMirror-matchingbracket { outline:1px solid grey; colo
  * @copyright AtomicPages LLC 2014
  * @author Dennis Thompson, AtomicPages LLC
  * @version 1.1
- * @source https://github.com/atomicpages/codemirror-pastel-on-dark-theme
+ * @source http://github.com/atomicpages/codemirror-pastel-on-dark-theme
  */
 
 .cm-s-pastel-on-dark.CodeMirror {
@@ -1280,8 +1280,8 @@ div.cm-s-mdn-like span.CodeMirror-matchingbracket { outline:1px solid grey; colo
     Name:       Railscasts
     Author:     Ryan Bates (http://railscasts.com)
 
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    CodeMirror template by Jan T. Sott (http://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (http://github.com/chriskempson/base16)
 
 */
 
@@ -1339,7 +1339,7 @@ div.cm-s-mdn-like span.CodeMirror-matchingbracket { outline:1px solid grey; colo
     Name:       seti
     Author:     Michael Kaminsky (http://github.com/mkaminsky11)
 
-    Original seti color scheme by Jesse Weed (https://github.com/jesseweed/seti-syntax)
+    Original seti color scheme by Jesse Weed (http://github.com/jesseweed/seti-syntax)
 
 */
 
@@ -1617,8 +1617,8 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
     Name:       Tomorrow Night - Eighties
     Author:     Chris Kempson
 
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    CodeMirror template by Jan T. Sott (http://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (http://github.com/chriskempson/base16)
 
 */
 
@@ -1881,7 +1881,7 @@ THE SOFTWARE.
     Name:       yeti
     Author:     Michael Kaminsky (http://github.com/mkaminsky11)
 
-    Original yeti color scheme by Jesse Weed (https://github.com/jesseweed/yeti-syntax)
+    Original yeti color scheme by Jesse Weed (http://github.com/jesseweed/yeti-syntax)
 
 */
 
@@ -1923,11 +1923,11 @@ THE SOFTWARE.
 /**
  * "
  *  Using Zenburn color palette from the Emacs Zenburn Theme
- *  https://github.com/bbatsov/zenburn-emacs/blob/master/zenburn-theme.el
+ *  http://github.com/bbatsov/zenburn-emacs/blob/master/zenburn-theme.el
  *
- *  Also using parts of https://github.com/xavi/coderay-lighttable-theme
+ *  Also using parts of http://github.com/xavi/coderay-lighttable-theme
  * "
- * From: https://github.com/wisenomad/zenburn-lighttable-theme/blob/master/zenburn.css
+ * From: http://github.com/wisenomad/zenburn-lighttable-theme/blob/master/zenburn.css
  */
 
 .cm-s-zenburn .CodeMirror-gutters { background: #3f3f3f !important; }

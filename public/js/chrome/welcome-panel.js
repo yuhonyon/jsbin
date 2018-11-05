@@ -94,7 +94,7 @@
       var blogpost = data.blog[0];
       // this is daft, but it means that the landing page is the same
       // for all, and ensures that blog comments end up on a single place
-      var root = jsbin.root.replace(/^https/, 'http');
+      var root = jsbin.root.replace(/^http/, 'http');
       $('.toppanel-blog ul').html('<li><a href="' + root + '/' + blogpost.slug + '" target="_blank" class="toppanel-link">' + blogpost.title.replace(/TWDTW.*:\s/, '') + '</a></li>');
 
       var last = null;

@@ -2,7 +2,7 @@
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
 // By the Neo4j Team and contributors.
-// https://github.com/neo4j-contrib/CodeMirror
+// http://github.com/neo4j-contrib/CodeMirror
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
